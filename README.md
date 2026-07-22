@@ -1,4 +1,4 @@
-# Theweavingtale - Comprehensive Blog Website
+﻿# Storyunfolded - Comprehensive Blog Website
 
 A modern, responsive blog website featuring product reviews, lifestyle articles, and platform recommendations.
 
@@ -35,7 +35,7 @@ A modern, responsive blog website featuring product reviews, lifestyle articles,
 ## File Structure
 
 ```
-theweavingtale/
+Storyunfolded/
 ├── index.html          # Homepage (Landing page)
 ├── blog.html           # Blog listing page
 ├── article.html        # Article detail page
@@ -182,7 +182,7 @@ See `SEO-GUIDE.md` for complete SEO documentation including:
 ## Deployment
 
 ### Before Deploying
-1. Update all URLs in meta tags from `https://theweavingtale.com` to your actual domain
+1. Update all URLs in meta tags from `https://storyunfolded.top` to your actual domain
 2. Update sitemap.xml with your domain
 3. Update robots.txt with your domain
 4. Add Google Analytics tracking code (optional)
@@ -256,4 +256,4 @@ This project is free to use for personal and commercial purposes.
 
 ---
 
-**Theweavingtale** - Your trusted source for product reviews and lifestyle content.
+**Storyunfolded** - Your trusted source for product reviews and lifestyle content.

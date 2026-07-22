@@ -1,8 +1,8 @@
-# SEO Optimization Summary
+﻿# SEO Optimization Summary
 
 ## 🎉 Congratulations! Your Website is Now SEO-Optimized
 
-Your Theweavingtale website has been fully optimized for search engines. Here's what has been implemented:
+Your Storyunfolded website has been fully optimized for search engines. Here's what has been implemented:
 
 ---
 
@@ -57,7 +57,7 @@ Article pages automatically update:
 
 ### Immediate Actions (Day 1)
 1. **Update Domain Names**
-   - Replace `https://theweavingtale.com` with your actual domain in:
+   - Replace `https://storyunfolded.top` with your actual domain in:
      - All HTML files (meta tags)
      - sitemap.xml
      - robots.txt

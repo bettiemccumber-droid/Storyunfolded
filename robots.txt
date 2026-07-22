@@ -1,5 +1,5 @@
-# Robots.txt for Theweavingtale
-# https://theweavingtale.com/robots.txt
+﻿# Robots.txt for Storyunfolded
+# https://storyunfolded.top/robots.txt
 
 User-agent: *
 Allow: /
@@ -13,7 +13,7 @@ Allow: /css/
 Allow: /js/
 
 # Sitemap location
-Sitemap: https://theweavingtale.com/sitemap.xml
+Sitemap: https://storyunfolded.top/sitemap.xml
 
 # Crawl-delay (optional, adjust as needed)
 # Crawl-delay: 10

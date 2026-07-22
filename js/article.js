@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+﻿document.addEventListener('DOMContentLoaded', function() {
     // Get article ID from URL
     const urlParams = new URLSearchParams(window.location.search);
     const articleId = parseInt(urlParams.get('id'));
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Update SEO Meta Tags dynamically
 function updateSEOTags(article) {
     // Update title
-    document.title = `${article.title} | Theweavingtale`;
+    document.title = `${article.title} | Storyunfolded`;
     
     // Update meta description
     updateMetaTag('name', 'description', article.excerpt);
@@ -152,14 +152,14 @@ function addArticleStructuredData(article) {
         "dateModified": article.date,
         "author": {
             "@type": "Organization",
-            "name": "Theweavingtale"
+            "name": "Storyunfolded"
         },
         "publisher": {
             "@type": "Organization",
-            "name": "Theweavingtale",
+            "name": "Storyunfolded",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://theweavingtale.com/logo.png"
+                "url": "https://storyunfolded.top/logo.png"
             }
         },
         "mainEntityOfPage": {

@@ -1,4 +1,4 @@
-# 最新更新总结
+﻿# 最新更新总结
 
 ## 🎨 样式修复
 
@@ -39,9 +39,9 @@
 所有页面的联系信息已更新为：
 
 **电子邮件：**
-- 主要联系：contact@theweavingtale.com
-- 隐私问题：privacy@theweavingtale.com
-- 法律问题：legal@theweavingtale.com
+- 主要联系：leijing870@gmail.com
+- 隐私问题：leijing870@gmail.com
+- 法律问题：leijing870@gmail.com
 
 **电话：**
 - +1 (555) 789-0123
@@ -53,7 +53,7 @@
 ## 🔗 页脚更新
 
 ### 所有页面页脚现在包含：
-1. **About Theweavingtale** - 简介和社交媒体链接
+1. **About Storyunfolded** - 简介和社交媒体链接
 2. **Quick Links** - 快速导航链接
 3. **Legal** - 法律文件链接
    - Privacy Policy
@@ -77,7 +77,7 @@
 ## 📁 文件结构更新
 
 ```
-theweavingtale/
+Storyunfolded/
 ├── index.html
 ├── blog.html
 ├── article.html
@@ -118,19 +118,19 @@ theweavingtale/
 ## 🔍 需要注意的事项
 
 ### 部署前
-1. **更新域名** - 将所有 `https://theweavingtale.com` 替换为实际域名
+1. **更新域名** - 将所有 `https://storyunfolded.top` 替换为实际域名
 2. **更新联系信息** - 如需要，替换为真实的联系方式
 3. **审查法律文件** - 建议让法律顾问审查隐私政策和服务条款
 4. **更新sitemap.xml** - 添加新页面：
    ```xml
    <url>
-     <loc>https://theweavingtale.com/privacy-policy.html</loc>
+     <loc>https://storyunfolded.top/privacy-policy.html</loc>
      <lastmod>2026-04-10</lastmod>
      <changefreq>monthly</changefreq>
      <priority>0.5</priority>
    </url>
    <url>
-     <loc>https://theweavingtale.com/terms-of-service.html</loc>
+     <loc>https://storyunfolded.top/terms-of-service.html</loc>
      <lastmod>2026-04-10</lastmod>
      <changefreq>monthly</changefreq>
      <priority>0.5</priority>

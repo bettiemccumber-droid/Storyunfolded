@@ -1,4 +1,4 @@
-# SEO Optimization Guide for Theweavingtale
+﻿# SEO Optimization Guide for Storyunfolded
 
 ## ✅ Implemented SEO Features
 
@@ -126,7 +126,7 @@ Article pages automatically update:
 ### Updating Page Titles
 Edit the `<title>` tag in each HTML file:
 ```html
-<title>Your New Title | Theweavingtale</title>
+<title>Your New Title | Storyunfolded</title>
 ```
 
 ### Updating Meta Descriptions
@@ -145,7 +145,7 @@ Edit the meta description tag:
 Edit `sitemap.xml` and add new URLs:
 ```xml
 <url>
-  <loc>https://theweavingtale.com/new-page.html</loc>
+  <loc>https://storyunfolded.top/new-page.html</loc>
   <lastmod>2026-04-10</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
@@ -191,7 +191,7 @@ Before publishing new content:
 1. Go to [Google Search Console](https://search.google.com/search-console)
 2. Add your property (website)
 3. Verify ownership
-4. Submit sitemap: `https://theweavingtale.com/sitemap.xml`
+4. Submit sitemap: `https://storyunfolded.top/sitemap.xml`
 
 ### Bing
 1. Go to [Bing Webmaster Tools](https://www.bing.com/webmasters)
@@ -220,7 +220,7 @@ Before publishing new content:
 ## 📞 Support
 
 For SEO questions or assistance:
-- Email: hello@theweavingtale.com
+- Email: leijing870@gmail.com
 - Review this guide regularly
 - Stay updated with SEO best practices
 
