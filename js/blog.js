@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     let currentPage = 1;
     const articlesPerPage = 6;
-    let filteredArticles = [...articles];
+    let filteredArticles = sortArticlesByDateDesc(articles);
     let currentCategory = new URLSearchParams(window.location.search).get('category');
     let searchQuery = '';
+    let currentSort = 'date-desc';
 
     // Initialize
     renderCategories();
@@ -41,17 +42,17 @@ document.addEventListener('DOMContentLoaded', function() {
             return matchesSearch && matchesCategory;
         });
         
+        applySorting();
         currentPage = 1;
         renderArticles();
         updateResultsCount();
     }
 
-    // Sort functionality
-    const sortSelect = document.getElementById('sortSelect');
-    sortSelect.addEventListener('change', function() {
-        const sortValue = this.value;
-        
-        switch(sortValue) {
+    /**
+     * Apply the current sort option to filtered articles.
+     */
+    function applySorting() {
+        switch (currentSort) {
             case 'date-desc':
                 filteredArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
                 break;
@@ -62,7 +63,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 filteredArticles.sort((a, b) => a.title.localeCompare(b.title));
                 break;
         }
-        
+    }
+
+    // Sort functionality
+    const sortSelect = document.getElementById('sortSelect');
+    sortSelect.addEventListener('change', function() {
+        currentSort = this.value;
+        applySorting();
         renderArticles();
     });
 
@@ -158,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Render recent posts
     function renderRecentPosts() {
         const recentPosts = document.getElementById('recentPosts');
-        const recent = articles.slice(0, 5);
+        const recent = sortArticlesByDateDesc(articles).slice(0, 5);
         
         recentPosts.innerHTML = recent.map(article => `
             <div class="post-item">

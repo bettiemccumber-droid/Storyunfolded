@@ -30,9 +30,9 @@
     document.getElementById('articleContent').innerHTML = article.content;
 
     // Render related articles
-    const relatedArticles = articles
-        .filter(a => a.category === article.category && a.id !== article.id)
-        .slice(0, 3);
+    const relatedArticles = sortArticlesByDateDesc(
+        articles.filter(a => a.category === article.category && a.id !== article.id)
+    ).slice(0, 3);
     
     document.getElementById('relatedArticles').innerHTML = relatedArticles.map(a => `
         <article class="post-card">
@@ -47,7 +47,7 @@
     `).join('');
 
     // Render recent posts in sidebar
-    const recentPosts = articles.slice(0, 5);
+    const recentPosts = sortArticlesByDateDesc(articles).slice(0, 5);
     document.getElementById('recentPosts').innerHTML = recentPosts.map(a => `
         <div class="post-item">
             <img src="${a.image}" alt="${a.title}">

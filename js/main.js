@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load Latest Posts Grid on Homepage
     const latestGrid = document.getElementById('latestGrid');
     if (latestGrid) {
-        const latestArticles = articles.slice(0, 6);
+        const latestArticles = sortArticlesByDateDesc(articles).slice(0, 6);
         latestGrid.innerHTML = latestArticles.map(article => `
             <article class="post-card">
                 <img src="${article.image}" alt="${article.title}">
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load Technology Posts
     const techPosts = document.getElementById('techPosts');
     if (techPosts) {
-        const techArticles = articles.filter(a => a.category === 'Technology').slice(0, 3);
+        const techArticles = sortArticlesByDateDesc(articles.filter(a => a.category === 'Technology')).slice(0, 3);
         techPosts.innerHTML = techArticles.map(article => `
             <article class="compact-card">
                 <img src="${article.image}" alt="${article.title}">
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load Fashion Posts
     const fashionPosts = document.getElementById('fashionPosts');
     if (fashionPosts) {
-        const fashionArticles = articles.filter(a => a.category === 'Fashion').slice(0, 3);
+        const fashionArticles = sortArticlesByDateDesc(articles.filter(a => a.category === 'Fashion')).slice(0, 3);
         fashionPosts.innerHTML = fashionArticles.map(article => `
             <article class="compact-card">
                 <img src="${article.image}" alt="${article.title}">
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load Popular Posts in Sidebar
     const popularPosts = document.getElementById('popularPosts');
     if (popularPosts) {
-        const popular = articles.slice(0, 5);
+        const popular = sortArticlesByDateDesc(articles).slice(0, 5);
         popularPosts.innerHTML = popular.map(article => `
             <div class="post-item">
                 <img src="${article.image}" alt="${article.title}">
