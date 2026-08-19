@@ -289,6 +289,84 @@ const articles = [
             
             <p>Every purchase is a vote for the kind of world we want to live in. Choose brands that align with your values.</p>
         `
+    },
+    {
+        id: 11,
+        title: "21vek.by: Empowering E-Commerce Growth in Belarus Since 2004",
+        category: "Technology",
+        date: "2026-08-08",
+        image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
+        excerpt: "Discover how 21vek.by has shaped Belarusian e-commerce for over two decades, offering electronics, appliances, and household goods with reliable delivery nationwide.",
+        content: `
+            <p>When <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">21vek.by</a> launched in 2004, online shopping in Belarus was still in its early days. More than twenty years later, the platform has grown into one of the country's most trusted destinations for electronics, home appliances, furniture, and everyday essentials—proving that consistent service and customer focus can drive real <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">e-commerce growth</a>.</p>
+            
+            <h2>A Pioneer in Belarusian Online Retail</h2>
+            <p><a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">21vek.by</a> was among the first major retailers to bring a full catalog of consumer goods to the web in <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">Belarus</a>. What started as a focused online store has expanded into a comprehensive marketplace where shoppers can compare prices, read detailed product specifications, and order everything from smartphones to kitchen appliances in a few clicks.</p>
+            
+            <h2>Empowering Shoppers with Choice and Convenience</h2>
+            <p>The platform's strength lies in its breadth. Whether you need a new laptop, a washing machine, or furniture for your home, <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">21vek.by</a> brings thousands of products from leading brands under one roof. Flexible payment options—including installment plans—make larger purchases more accessible, while nationwide delivery ensures customers across Belarus receive their orders reliably.</p>
+            
+            <h2>Building Trust Since 2004</h2>
+            <p>Longevity matters in e-commerce, and <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">21vek.by</a> has earned its reputation through transparent pricing, warranty support, and responsive customer service. Shoppers know what to expect: clear product descriptions, honest reviews, and a straightforward returns process that removes much of the uncertainty that once held people back from buying online.</p>
+            
+            <h2>Technology That Keeps Evolving</h2>
+            <p>Behind the scenes, the platform continues investing in mobile optimization, personalized recommendations, and faster checkout flows. These improvements reflect a broader commitment to <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">empowering e-commerce growth</a> not just for the company itself, but for the entire Belarusian digital retail ecosystem.</p>
+            
+            <h2>Why 21vek.by Still Matters Today</h2>
+            <p>Two decades after its founding, <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">21vek.by</a> remains a go-to destination for Belarusian consumers who value selection, competitive pricing, and dependable service. For anyone exploring online shopping in the region, it stands as a benchmark for what sustained <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">e-commerce growth in Belarus since 2004</a> looks like in practice.</p>
+        `
+    },
+    {
+        id: 12,
+        title: "From Yale to Your Gym: The Science Behind JYM Supplement Science",
+        category: "Fitness",
+        date: "2026-08-17",
+        image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=600&fit=crop",
+        excerpt: "Explore how Dr. Jim Stoppani's Yale-trained expertise shaped JYM Supplement Science into one of the most research-driven fitness brands on the market.",
+        content: `
+            <p>Not every supplement company is built on peer-reviewed research—but <a href="https://www.linkbux.com/track/134cWX1pTapT0PzBb1tUzNfMzntb6HhpZJry7vFMmAhyOLZzDPWpTpPhWHtTPCWL55DTwZseFpF5Ux2fT_aH9Ep7tHQ_c_c?url=https%3A%2F%2Fjymsupplementscience.com%2F" target="_blank" rel="noopener noreferrer">JYM Supplement Science</a> is different. Founded by Dr. Jim Stoppani, who earned his doctorate from <a href="https://www.linkbux.com/track/134cWX1pTapT0PzBb1tUzNfMzntb6HhpZJry7vFMmAhyOLZzDPWpTpPhWHtTPCWL55DTwZseFpF5Ux2fT_aH9Ep7tHQ_c_c?url=https%3A%2F%2Fjymsupplementscience.com%2F" target="_blank" rel="noopener noreferrer">Yale</a>, the brand bridges the gap between laboratory science and real-world gym performance.</p>
+            
+            <h2>The Yale Foundation</h2>
+            <p>Dr. Stoppani's background in exercise physiology gives <a href="https://www.linkbux.com/track/134cWX1pTapT0PzBb1tUzNfMzntb6HhpZJry7vFMmAhyOLZzDPWpTpPhWHtTPCWL55DTwZseFpF5Ux2fT_aH9Ep7tHQ_c_c?url=https%3A%2F%2Fjymsupplementscience.com%2F" target="_blank" rel="noopener noreferrer">JYM Supplement Science</a> a credibility that many competitors lack. Rather than relying on marketing hype, each formula is designed around clinically studied ingredient doses—the kind of precision you'd expect from someone trained at one of the world's leading research universities.</p>
+            
+            <h2>Science You Can Take to the Gym</h2>
+            <p>Flagship products like Pre JYM, Post JYM, and Pro JYM follow a transparent approach: every ingredient and its dosage is listed clearly on the label, with no proprietary blends hiding behind vague terminology. This openness reflects the core philosophy behind <a href="https://www.linkbux.com/track/134cWX1pTapT0PzBb1tUzNfMzntb6HhpZJry7vFMmAhyOLZzDPWpTpPhWHtTPCWL55DTwZseFpF5Ux2fT_aH9Ep7tHQ_c_c?url=https%3A%2F%2Fjymsupplementscience.com%2F" target="_blank" rel="noopener noreferrer">the science behind JYM Supplement Science</a>—what you see is exactly what your body gets.</p>
+            
+            <h2>From Lab Bench to Lifting Platform</h2>
+            <p>The journey from <a href="https://www.linkbux.com/track/134cWX1pTapT0PzBb1tUzNfMzntb6HhpZJry7vFMmAhyOLZzDPWpTpPhWHtTPCWL55DTwZseFpF5Ux2fT_aH9Ep7tHQ_c_c?url=https%3A%2F%2Fjymsupplementscience.com%2F" target="_blank" rel="noopener noreferrer">Yale</a> to <a href="https://www.linkbux.com/track/134cWX1pTapT0PzBb1tUzNfMzntb6HhpZJry7vFMmAhyOLZzDPWpTpPhWHtTPCWL55DTwZseFpF5Ux2fT_aH9Ep7tHQ_c_c?url=https%3A%2F%2Fjymsupplementscience.com%2F" target="_blank" rel="noopener noreferrer">your gym</a> bag is what sets this brand apart. Pre-workout formulas include research-backed doses of creatine, beta-alanine, and citrulline; protein blends prioritize complete amino acid profiles; and recovery products target muscle repair with evidence-based nutrients rather than filler ingredients.</p>
+            
+            <h2>A Full Ecosystem for Serious Athletes</h2>
+            <p><a href="https://www.linkbux.com/track/134cWX1pTapT0PzBb1tUzNfMzntb6HhpZJry7vFMmAhyOLZzDPWpTpPhWHtTPCWL55DTwZseFpF5Ux2fT_aH9Ep7tHQ_c_c?url=https%3A%2F%2Fjymsupplementscience.com%2F" target="_blank" rel="noopener noreferrer">JYM Supplement Science</a> offers a complete stack covering pre-workout energy, intra-workout hydration, post-workout recovery, and daily foundational supplements. Whether you're training for strength, endurance, or general fitness, the product line is designed to work together as a cohesive system.</p>
+            
+            <h2>Why It Matters for Your Training</h2>
+            <p>In a market flooded with underdosed formulas and misleading labels, choosing a brand rooted in genuine <a href="https://www.linkbux.com/track/134cWX1pTapT0PzBb1tUzNfMzntb6HhpZJry7vFMmAhyOLZzDPWpTpPhWHtTPCWL55DTwZseFpF5Ux2fT_aH9Ep7tHQ_c_c?url=https%3A%2F%2Fjymsupplementscience.com%2F" target="_blank" rel="noopener noreferrer">science</a> can make a measurable difference. <a href="https://www.linkbux.com/track/134cWX1pTapT0PzBb1tUzNfMzntb6HhpZJry7vFMmAhyOLZzDPWpTpPhWHtTPCWL55DTwZseFpF5Ux2fT_aH9Ep7tHQ_c_c?url=https%3A%2F%2Fjymsupplementscience.com%2F" target="_blank" rel="noopener noreferrer">JYM Supplement Science</a> delivers on its promise: supplements formulated by a scientist, tested by athletes, and trusted by millions who demand results backed by research—not just advertising.</p>
+        `
+    },
+    {
+        id: 13,
+        title: "Tickets.ua: Book Flights, Trains & Buses in 15 Minutes – Over 5 Million Passengers Trust Us",
+        category: "Travel",
+        date: "2026-08-17",
+        image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=600&fit=crop",
+        excerpt: "Learn why over 5 million passengers rely on Tickets.ua to book flights, trains, and buses across Ukraine and beyond—in as little as 15 minutes.",
+        content: `
+            <p>Planning a trip shouldn't feel like a full-time job. With <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">Tickets.ua</a>, travelers across Ukraine and beyond can search, compare, and confirm bookings for flights, trains, and buses in as little as 15 minutes—a speed and simplicity that has helped the platform earn the trust of over 5 million passengers.</p>
+            
+            <h2>One Platform, Every Mode of Travel</h2>
+            <p>Instead of juggling multiple websites and apps, <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">Tickets.ua</a> consolidates <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">flights</a>, <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">trains</a>, and <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">buses</a> into a single, intuitive interface. Whether you're flying internationally, taking an intercity train, or catching a regional bus, everything is searchable from one place with real-time availability and transparent pricing.</p>
+            
+            <h2>Book in 15 Minutes, Travel with Confidence</h2>
+            <p>The booking flow is designed for efficiency. Enter your route and dates, compare options side by side, and complete your purchase in roughly <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">15 minutes</a>—no hidden steps, no confusing redirects. Instant confirmation and e-ticket delivery mean you're ready to go as soon as payment is complete.</p>
+            
+            <h2>Trusted by Over 5 Million Passengers</h2>
+            <p>Trust is built over time, and <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">Tickets.ua</a> has earned it from more than <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">5 million passengers</a> who have used the platform for business trips, family vacations, and everyday commutes. Secure payment processing, reliable customer support, and a straightforward refund policy give travelers peace of mind at every stage.</p>
+            
+            <h2>Smart Tools for Smarter Travel</h2>
+            <p>Beyond basic booking, <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">Tickets</a> offers price alerts, flexible date search, and multi-leg itinerary planning. These features help budget-conscious travelers find the best deals without spending hours comparing fares across different carriers and operators.</p>
+            
+            <h2>Your Next Journey Starts Here</h2>
+            <p>Whether you're planning a weekend getaway or a cross-country adventure, <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">Tickets.ua</a> makes it easy to get from point A to point B. Join the millions who already rely on the platform to <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">book flights, trains & buses</a> quickly, affordably, and with complete confidence.</p>
+        `
     }
 ];
 
@@ -358,10 +436,10 @@ const products = [
 
 // Categories with counts
 const categories = [
-    { name: "Technology", count: 3, slug: "technology" },
+    { name: "Technology", count: 4, slug: "technology" },
     { name: "Fashion", count: 2, slug: "fashion" },
     { name: "Home & Living", count: 3, slug: "home" },
     { name: "Beauty", count: 1, slug: "beauty" },
-    { name: "Fitness", count: 1, slug: "fitness" },
-    { name: "Travel", count: 1, slug: "travel" }
+    { name: "Fitness", count: 2, slug: "fitness" },
+    { name: "Travel", count: 2, slug: "travel" }
 ];
