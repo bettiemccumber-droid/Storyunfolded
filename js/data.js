@@ -295,55 +295,50 @@ const articles = [
         title: "21vek.by: Empowering E-Commerce Growth in Belarus Since 2004",
         category: "Technology",
         date: "2026-08-08",
-        image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
+        image: "https://cdn21vek.by/imgproxy/quality_90/plain/img/banners/main/desktop/6a6c99b1f3915.jpg",
         excerpt: "My mom still calls 21vek.by 'that website where we bought the kettle in 2019.' Twenty years in, here's why Belarusians keep coming back.",
         content: `
             <p>I remember the first time my family ordered something online in Minsk. It was 2011, we needed a new kettle, and my dad was skeptical — "What if they send us a brick?" We ended up on <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">21vek.by</a>, mostly because a neighbor recommended it. The kettle arrived on time. No brick. My dad, who rarely admits he was wrong, quietly ordered a phone charger from the same site two weeks later.</p>
 
-            <p>That small story says a lot about why <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">21vek.by</a> has survived — and grown — since 2004. It's not flashy marketing. It's the slow accumulation of trust: your aunt got her washing machine, your colleague got his laptop, and nobody got scammed.</p>
-
-            <figure class="article-image">
-                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=900&h=600&fit=crop" alt="Person shopping online at home">
-                <figcaption>Online shopping in Belarus went from novelty to normal — 21vek.by was part of that shift.</figcaption>
-            </figure>
+            <p>That small story says a lot about why <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">21vek.by</a> has survived — and grown — since 2004. It's not flashy marketing. It's the slow accumulation of trust: your aunt got her washing machine, your colleague got his laptop, and nobody got scammed. August 2026 happens to be their 22nd anniversary — birthday promos run all month if you're timing a purchase.</p>
 
             <h2>Before "Add to Cart" Was a Habit</h2>
             <p>When the platform launched in 2004, e-commerce in Belarus wasn't exactly mainstream. People still preferred walking into a store, touching the product, arguing with a sales clerk about the price. Fair enough — buying a TV online felt risky.</p>
             <p>What 21vek.by did well, early on, was reduce that uncertainty. Detailed specs. Real photos. Clear warranty info. And eventually, installment plans that made a decent refrigerator feel less like a financial crisis and more like a manageable monthly payment.</p>
+
+            <figure class="article-image product">
+                <img src="https://cdn21vek.by/installment_cards/main/smart@2x.png" alt="21vek.by Smart Card installment payment option">
+                <figcaption>Installment cards like Smart, Halva, and others let families spread larger purchases over months — a quiet reason the platform grew outside Minsk.</figcaption>
+            </figure>
+
             <p>I didn't think about any of this consciously when I was younger. I just noticed that my parents stopped dragging me to three different electronics shops on Saturday mornings. One website, compare prices, done.</p>
 
             <h2>The Catalog Is Honestly Overwhelming (In a Good Way)</h2>
             <p>These days, the site covers a ridiculous range: smartphones, laptops, kitchen appliances, furniture, kids' stuff, seasonal goods. Last winter my cousin bought an air humidifier and a desk lamp in the same order. Last month, a friend furnished half her studio from there.</p>
-
-            <figure class="article-image">
-                <img src="https://images.unsplash.com/photo-1626806819282-79479369c4a5?w=900&h=600&fit=crop" alt="Modern home appliances in a kitchen">
-                <figcaption>From kettles to washing machines — home appliances remain one of the platform's strongest categories.</figcaption>
-            </figure>
-
             <p>What I appreciate now, as an adult who hates wasting afternoons in traffic, is that you can actually research before you buy. Filter by brand. Read reviews from other buyers in Belarus. Check whether delivery reaches your city before you fall in love with a couch that won't ship to your region. (Learned that one the hard way — not on 21vek, but still.)</p>
 
             <h2>Delivery Stories Are the Real Reviews</h2>
             <p>Official product descriptions only tell you so much. The real test is what happens after you pay.</p>
             <p>I've heard mixed stories over the years — like any large retailer — but the overall pattern among people I know is pretty consistent: orders arrive, support responds, returns aren't a nightmare. For a market where online shopping still makes some older relatives nervous, that matters more than any slogan about "empowering e-commerce growth."</p>
 
-            <figure class="article-image">
-                <img src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=900&h=600&fit=crop" alt="Delivery person carrying a package">
-                <figcaption>Nationwide delivery turned online shopping from a gamble into a routine for families across Belarus.</figcaption>
+            <figure class="article-image product">
+                <img src="https://www.21vek.by/img/up/logo_21vek.by.png" alt="21vek.by official logo">
+                <figcaption>The logo hasn't changed much over the years — and honestly, that's part of the point. Familiarity builds trust.</figcaption>
             </figure>
 
             <p>My mom still calls it "that website where we bought the kettle." She doesn't know what e-commerce means and she doesn't care. She knows the site works.</p>
 
             <h2>What's Changed Behind the Scenes</h2>
             <p>The interface today is cleaner than I remember from ten years ago. Mobile browsing actually works — which sounds like a low bar, but if you've ever tried buying a washing machine on a glitchy mobile site at 11 p.m., you know it's not.</p>
-            <p>Recommendations feel less random. Checkout is faster. Payment options expanded. None of this is revolutionary on a global scale, but for a regional platform that's been operating since 2004, steady improvement beats flashy rebrands every time.</p>
+            <p>Recommendations feel less random. Checkout is faster. Payment options expanded — Halva MIX, Smart Card, Supersila, and other local installment programs all integrate directly at checkout. None of this is revolutionary on a global scale, but for a regional platform that's been operating since 2004, steady improvement beats flashy rebrands every time.</p>
 
-            <figure class="article-image">
-                <img src="https://images.unsplash.com/photo-151294193766939-90a1b58e7e9c?w=900&h=600&fit=crop" alt="Shopping on a smartphone">
-                <figcaption>Mobile shopping now accounts for a huge share of orders — a far cry from the desktop-only days of the mid-2000s.</figcaption>
+            <figure class="article-image product">
+                <img src="https://cdn21vek.by/installment_cards/main/halvaMix@2x.png" alt="Halva MIX installment card accepted at 21vek.by">
+                <figcaption>Multiple installment partners mean you're not locked into one bank's terms — useful when you're buying a fridge and a laptop in the same month.</figcaption>
             </figure>
 
             <h2>Should You Use It?</h2>
-            <p>If you're in Belarus and you're buying electronics, appliances, or household goods, <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">21vek.by</a> is worth checking before you commit anywhere else. Not because it's perfect — no retailer is — but because two decades of operation buys something advertising can't: ordinary people vouching for it over coffee.</p>
+            <p>If you're in Belarus and you're buying electronics, appliances, or household goods, <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">21vek.by</a> is worth checking before you commit anywhere else — especially during August when anniversary discounts stack on top of regular deals. Not because it's perfect — no retailer is — but because two decades of operation buys something advertising can't: ordinary people vouching for it over coffee.</p>
             <p>My dad still won't call it "online shopping." He calls it "ordering from the computer." Same thing, really. And the kettle still works, by the way.</p>
         `
     },
@@ -352,20 +347,20 @@ const articles = [
         title: "From Yale to Your Gym: The Science Behind JYM Supplement Science",
         category: "Fitness",
         date: "2026-08-17",
-        image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=600&fit=crop",
+        image: "https://jymsupplementscience.com/cdn/shop/files/jym-dtc-homepage-imagery-refresh-2-2026.jpg?v=1771616209&width=900",
         excerpt: "I wasted two years on underdosed pre-workouts before a gym regular pointed me to JYM. Here's what actually changed — and why the Yale backstory isn't just marketing.",
         content: `
             <p>I'll be honest: I used to buy whatever pre-workout had the loudest label and the most caffeine. Two scoops, face tingling, mediocre pump, crash by noon. I told myself that was normal. It wasn't — I was just buying underdosed powder with good graphic design.</p>
             <p>A regular at my gym — older guy, always mid-afternoon, always quietly putting up serious weight — noticed me reading ingredient panels like they were written in another language. He said, "Stop guessing. Look up <a href="https://www.linkbux.com/track/134cWX1pTapT0PzBb1tUzNfMzntb6HhpZJry7vFMmAhyOLZzDPWpTpPhWHtTPCWL55DTwZseFpF5Ux2fT_aH9Ep7tHQ_c_c?url=https%3A%2F%2Fjymsupplementscience.com%2F" target="_blank" rel="noopener noreferrer">JYM Supplement Science</a>." I did. That conversation probably saved me a few hundred dollars in useless tubs.</p>
 
+            <figure class="article-image">
+                <img src="https://jymsupplementscience.com/cdn/shop/files/jym-dtc-homepage-imagery-refresh-2-2026.jpg?v=1771616209&width=900" alt="Dr. Jim Stoppani from lab research to gym training and the JYM community">
+                <figcaption>Stoppani's story really does go from lab coat to lifting platform — it's not just a tagline on the website.</figcaption>
+            </figure>
+
             <h2>Why "Founded by a Yale PhD" Actually Matters Here</h2>
             <p>Usually when a supplement brand name-drops a university, I roll my eyes. But Dr. Jim Stoppani isn't a celebrity endorsement — he built the formulas himself. Exercise physiology doctorate from Yale, years in research before he ever sold a scoop of anything.</p>
             <p>That background shows up in small, unsexy ways: full label transparency, no proprietary blends hiding weak doses behind impressive-sounding names, and ingredient amounts that match what studies actually used — not the "pixie dust" approach most brands take.</p>
-
-            <figure class="article-image">
-                <img src="https://images.unsplash.com/photo-1593095948071-791c5ca0110b?w=900&h=600&fit=crop" alt="Protein powder and supplement containers on a kitchen counter">
-                <figcaption>The supplement aisle is full of noise — JYM's appeal is that the label tells you exactly what you're getting.</figcaption>
-            </figure>
 
             <h2>What I Actually Use (and Why)</h2>
             <p>I'm not running a sponsored athlete lifestyle. I lift four times a week, work a desk job, and care about sleep more than I care about looking impressive at the gym. My stack is boring on purpose:</p>
@@ -374,37 +369,40 @@ const articles = [
                 <li><strong>Pro JYM</strong> post-workout — tastes fine, mixes without clumps, doesn't wreck my stomach</li>
                 <li><strong>Post JYM</strong> on heavy leg days when I know I'll be sore tomorrow regardless of my optimism</li>
             </ul>
-            <p>None of this is magic. But switching from random Amazon bestsellers to properly dosed products felt like the difference between guessing and actually following a plan.</p>
 
-            <figure class="article-image">
-                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=900&h=600&fit=crop" alt="Weight plates and barbell in a gym">
-                <figcaption>The gym is where theory meets reality — supplements only help if the training and recovery are already in place.</figcaption>
+            <figure class="article-image product">
+                <img src="https://jymsupplementscience.com/cdn/shop/files/PRE30GC30022380031725V1.4-Front-1200px_5e79b9d1-f022-4176-9184-8494d4d4486a.png?v=1775425736&width=800" alt="Pre JYM High-Performance Pre-Workout Grape Candy flavor">
+                <figcaption>Pre JYM — the one that started it all. Full doses listed on the front of the label, not hidden in a blend.</figcaption>
             </figure>
+
+            <p>None of this is magic. But switching from random Amazon bestsellers to properly dosed products felt like the difference between guessing and actually following a plan.</p>
 
             <h2>The Proprietary Blend Problem Nobody Talks About</h2>
             <p>Here's something that frustrated me once I learned it: many pre-workouts list "Muscle Pump Matrix 4,500mg" without telling you how much citrulline, beta-alanine, or creatine is inside. Legally fine. Practically useless if you want to know whether you're getting an effective dose.</p>
             <p>JYM puts everything on the label. Creatine at 2g. Beta-alanine at 2g. Citrulline malate at 6g. You can compare that against research yourself — or ignore the research and just notice whether your workouts feel better. I noticed.</p>
 
+            <figure class="article-image product">
+                <img src="https://jymsupplementscience.com/cdn/shop/files/PAM30BA21413032825V1.4-Front-1200px_47942150-ce87-45c8-b2a5-f6ff960833b8.png?v=1770999560&width=800" alt="Post JYM BCAAs+ Recovery Matrix Blue Arctic Freeze">
+                <figcaption>Post JYM lists every recovery ingredient by dose — 6g BCAAs, 3g glutamine, 2g creatine HCl. No guessing.</figcaption>
+            </figure>
+
             <h2>From Lab Bench to Gym Bag</h2>
             <p>There's a gap in the fitness industry between people who read studies and people who just want to train. Stoppani's whole career has been about closing that gap — writing for magazines, posting training programs, explaining <em>why</em> something works instead of just saying "BUY NOW."</p>
             <p>That's why <a href="https://www.linkbux.com/track/134cWX1pTapT0PzBb1tUzNfMzntb6HhpZJry7vFMmAhyOLZzDPWpTpPhWHtTPCWL55DTwZseFpF5Ux2fT_aH9Ep7tHQ_c_c?url=https%3A%2F%2Fjymsupplementscience.com%2F" target="_blank" rel="noopener noreferrer">JYM Supplement Science</a> feels less like a hype brand and more like a coach who happens to sell products. The products support the training philosophy, not the other way around.</p>
-
-            <figure class="article-image">
-                <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=900&h=600&fit=crop" alt="Athlete doing a workout in the gym">
-                <figcaption>Supplements are the last 5% — but when that 5% is properly formulated, you feel the difference on hard training days.</figcaption>
-            </figure>
 
             <h2>Who It's For (and Who It's Not)</h2>
             <p>If you want the cheapest tub on the shelf, JYM isn't it. You're paying for dose accuracy and ingredient quality, not bargain-bin pricing. If you're a beginner who hasn't nailed basic training and nutrition yet, no supplement will fix that — save your money, learn to squat, eat enough protein, sleep eight hours.</p>
             <p>But if you've got the fundamentals down and you're tired of guessing what's in your shaker bottle, this is one of the few brands I'd recommend without hedging every sentence.</p>
 
-            <figure class="article-image">
-                <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=900&h=600&fit=crop" alt="Person preparing a protein shake in a shaker bottle">
-                <figcaption>A good post-workout shake won't replace real food — but on busy days, it beats skipping recovery entirely.</figcaption>
-            </figure>
-
             <h2>My Honest Take</h2>
             <p>I still think most of the supplement industry is 80% marketing. JYM isn't perfect — nothing is — but at least you're not paying for mystery powder. The Yale credentials matter less to me than the label transparency, but together they explain why this brand has stuck around while flashier competitors come and go.</p>
+            <p>If you're restocking anyway, their end-of-summer sale is running now — 25% off select Pre JYM, Pre JYM Plus, and Post JYM flavors. Not why I wrote this, but worth knowing if you've been on the fence.</p>
+
+            <figure class="article-image banner">
+                <img src="https://jymsupplementscience.com/cdn/shop/files/jym-end-summer-sale-rotator-REV-desktop-2800x1000-v1-rev.jpg?v=1786892856&width=1200" alt="JYM Supplement Science End of Summer Sale 25% off">
+                <figcaption>End of Summer Sale — 25% off select products. Good time to try Pre JYM if you've been curious.</figcaption>
+            </figure>
+
             <p>If you're curious, browse the lineup on <a href="https://www.linkbux.com/track/134cWX1pTapT0PzBb1tUzNfMzntb6HhpZJry7vFMmAhyOLZzDPWpTpPhWHtTPCWL55DTwZseFpF5Ux2fT_aH9Ep7tHQ_c_c?url=https%3A%2F%2Fjymsupplementscience.com%2F" target="_blank" rel="noopener noreferrer">jymsupplementscience.com</a> and start with Pre JYM if you train in the mornings. That's what I did. The older guy at my gym was right — I should've listened sooner.</p>
         `
     },
@@ -413,37 +411,37 @@ const articles = [
         title: "Tickets.ua: Book Flights, Trains & Buses in 15 Minutes – Over 5 Million Passengers Trust Us",
         category: "Travel",
         date: "2026-08-17",
-        image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=600&fit=crop",
+        image: "https://images.ticketstravelnetwork.com/banner/20979_uk.png",
         excerpt: "Booking a Kyiv–Lviv trip used to mean six browser tabs and a headache. A colleague showed me Tickets.ua — I timed it: 12 minutes, start to confirmation.",
         content: `
             <p>Last spring I needed to get from Kyiv to Lviv for a friend's wedding. Nothing exotic — just a straightforward domestic trip. You'd think that would be easy. Instead I opened four tabs: one airline site, one rail operator, one bus aggregator, and a random forum thread from 2019 about which option was "actually reliable."</p>
             <p>Forty minutes later I had a headache and no ticket. A colleague watched me suffer and said, "Just use <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">Tickets.ua</a>." I was skeptical — another booking site, sure. But I was also desperate. I timed it: twelve minutes from search to confirmation email. That sold me faster than any ad ever could.</p>
 
+            <figure class="article-image banner">
+                <img src="https://images.ticketstravelnetwork.com/banner/20979_uk.png" alt="Tickets.ua flight deals and booking offers">
+                <figcaption>The platform aggregates offers from 750+ airlines — useful when you're comparing Kyiv–Lviv flights against train and bus options in the same session.</figcaption>
+            </figure>
+
             <h2>One Tab Instead of Six</h2>
             <p>The thing that surprised me most wasn't speed — it was sanity. Flights, trains, and buses in one place. Same interface. Same payment flow. No jumping between websites with different layouts, different languages, and different ideas about what "confirm booking" means.</p>
             <p>I ended up on an overnight train. Not because it was cheapest — a flight was actually less — but because I wanted to arrive rested and the train schedule worked better for the wedding timeline. Being able to compare all three modes side by side made that decision easy instead of theoretical.</p>
 
-            <figure class="article-image">
-                <img src="https://images.unsplash.com/photo-1515162813879-fbf825816273?w=900&h=600&fit=crop" alt="Train passing through a scenic landscape">
-                <figcaption>Sometimes the train beats the plane — but only if you can actually compare schedules without losing your mind.</figcaption>
+            <figure class="article-image banner">
+                <img src="https://static.tickets.ua/img/v4/marketing/bus-banner/bus-light.png" alt="Tickets.ua bus tickets across Ukraine and Europe">
+                <figcaption>Bus routes across Ukraine and into Europe — often the only direct option for smaller towns the train skips.</figcaption>
             </figure>
 
             <h2>The 15-Minute Claim Is Real (Mostly)</h2>
             <p>They advertise booking in 15 minutes. I got it done in twelve, but I'd already know my dates and destination. If you're planning a multi-city trip with flexible dates, add time for browsing — obviously. Still, compared to my four-tab disaster, even twenty minutes would have felt like a gift.</p>
             <p>The flow is straightforward: enter route, pick dates, compare options, pay, receive e-ticket. No account required for basic booking (though creating one helps if you travel often). Confirmation arrived before I'd finished my coffee.</p>
 
-            <figure class="article-image">
-                <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=900&h=600&fit=crop" alt="View from an airplane window above the clouds">
-                <figcaption>For longer routes, flights still win on time — Tickets.ua makes it easy to see when that's actually true.</figcaption>
-            </figure>
-
             <h2>Why Millions of People Trust It</h2>
             <p>I'm naturally suspicious of "5 million passengers trust us" claims — every travel site says something similar. But the number tracks with what I've heard from friends and coworkers in Ukraine. Business trips to Odesa. Weekend visits to parents in Kharkiv. Students going home for holidays.</p>
             <p>What builds trust isn't a slogan. It's showing up when something goes wrong — a delayed train, a schedule change, a refund request. I haven't had a crisis situation myself, but two people I know got responsive support when their flight was rescheduled. That matters more than a sleek homepage.</p>
 
-            <figure class="article-image">
-                <img src="https://images.unsplash.com/photo-1509740355118-080521946963?w=900&h=600&fit=crop" alt="Intercity bus on a highway">
-                <figcaption>Regional buses are easy to overlook — until they're the only option that reaches your destination directly.</figcaption>
+            <figure class="article-image banner">
+                <img src="https://content.admixer.net/test1/a731a944-8aa8-430d-b6ad-059213097848/d8f52ab4-61e9-4f5a-ba9e-70789595a628.png" alt="Manage your Tickets.ua bookings via Telegram support bot">
+                <figcaption>The Telegram bot lets you pull up tickets, check order status, and reach support without logging into the website — handy at the station.</figcaption>
             </figure>
 
             <h2>Features I Actually Use</h2>
@@ -452,16 +450,17 @@ const articles = [
                 <li><strong>Flexible dates</strong> — when I'm not locked to specific days, this saves real money</li>
                 <li><strong>Price alerts</strong> — set it and forget it for trips I'm planning a month out</li>
                 <li><strong>Multi-leg planning</strong> — Kyiv → Lviv → back, without rebuilding the search from scratch</li>
+                <li><strong>Telegram access</strong> — pull up your e-ticket from the chat bot when you're already juggling luggage</li>
             </ul>
             <p>I don't use every feature. Most people won't. But the core experience — search, compare, book — is solid enough that the extras feel like bonuses, not bloat.</p>
 
+            <figure class="article-image banner">
+                <img src="https://images.ticketstravelnetwork.com/banner/20884_uk.png" alt="Tickets.ua hot travel deals and special offers">
+                <figcaption>Hot deals rotate regularly — worth checking if your dates are flexible and you're not married to a specific carrier.</figcaption>
+            </figure>
+
             <h2>A Small Complaint (Because No Review Is Real Without One)</h2>
             <p>The mobile app could be smoother during peak travel seasons. I once had a slow load time around New Year when half the country seemed to be booking trips home. It worked — just took patience. Not a dealbreaker, but worth mentioning if you're booking on a deadline.</p>
-
-            <figure class="article-image">
-                <img src="https://images.unsplash.com/photo-1488085068336-0215919350e8?w=900&h=600&fit=crop" alt="Traveler planning a trip on a laptop">
-                <figcaption>Most of my bookings happen on a laptop the night before — quick search, compare, done.</figcaption>
-            </figure>
 
             <h2>Would I Recommend It?</h2>
             <p>Yes — especially if you're tired of managing multiple booking sites like a part-time job. <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">Tickets.ua</a> won't plan your trip for you or pack your bag, but it removes the most annoying part: the fragmented search across airlines, rail, and bus operators.</p>
