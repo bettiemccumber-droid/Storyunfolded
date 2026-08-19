@@ -295,26 +295,32 @@ const articles = [
         title: "21vek.by: Empowering E-Commerce Growth in Belarus Since 2004",
         category: "Technology",
         date: "2026-08-08",
-        image: "https://cdn21vek.by/imgproxy/quality_90/plain/img/banners/main/desktop/6a6c99b1f3915.jpg",
+        image: "https://cdn21vek.by/imgproxy/quality_90/plain/img/galleries/10513/918/10513918_3f7c1de0dbb38a2315e3729d589470eb.png",
         excerpt: "My mom still calls 21vek.by 'that website where we bought the kettle in 2019.' Twenty years in, here's why Belarusians keep coming back.",
         content: `
             <p>I remember the first time my family ordered something online in Minsk. It was 2011, we needed a new kettle, and my dad was skeptical — "What if they send us a brick?" We ended up on <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">21vek.by</a>, mostly because a neighbor recommended it. The kettle arrived on time. No brick. My dad, who rarely admits he was wrong, quietly ordered a phone charger from the same site two weeks later.</p>
 
-            <p>That small story says a lot about why <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">21vek.by</a> has survived — and grown — since 2004. It's not flashy marketing. It's the slow accumulation of trust: your aunt got her washing machine, your colleague got his laptop, and nobody got scammed. August 2026 happens to be their 22nd anniversary — birthday promos run all month if you're timing a purchase.</p>
+            <p>That small story says a lot about why <a href="https://www.linkbux.com/track/daddJbnEvlz0JYy1CIK1Dk0JDS8m4nzFTQQG_anAvrM8d_b2It_aRBbWnV0SakCDe8_agot4?url=https%3A%2F%2Fwww.21vek.by%2F" target="_blank" rel="noopener noreferrer">21vek.by</a> has survived — and grown — since 2004. It's not flashy marketing. It's the slow accumulation of trust: your aunt got her washing machine, your colleague got his laptop, and nobody got scammed. August 2026 happens to be their 22nd anniversary — worth checking if you're timing a bigger purchase.</p>
 
             <h2>Before "Add to Cart" Was a Habit</h2>
             <p>When the platform launched in 2004, e-commerce in Belarus wasn't exactly mainstream. People still preferred walking into a store, touching the product, arguing with a sales clerk about the price. Fair enough — buying a TV online felt risky.</p>
-            <p>What 21vek.by did well, early on, was reduce that uncertainty. Detailed specs. Real photos. Clear warranty info. And eventually, installment plans that made a decent refrigerator feel less like a financial crisis and more like a manageable monthly payment.</p>
-
-            <figure class="article-image product">
-                <img src="https://cdn21vek.by/installment_cards/main/smart@2x.png" alt="21vek.by Smart Card installment payment option">
-                <figcaption>Installment cards like Smart, Halva, and others let families spread larger purchases over months — a quiet reason the platform grew outside Minsk.</figcaption>
-            </figure>
+            <p>What 21vek.by did well, early on, was reduce that uncertainty. Detailed specs. Real photos. Clear warranty info. And eventually, installment plans — Smart Card, Halva MIX, Supersila, and others — that made a decent refrigerator feel less like a financial crisis and more like a manageable monthly payment.</p>
 
             <p>I didn't think about any of this consciously when I was younger. I just noticed that my parents stopped dragging me to three different electronics shops on Saturday mornings. One website, compare prices, done.</p>
 
             <h2>The Catalog Is Honestly Overwhelming (In a Good Way)</h2>
             <p>These days, the site covers a ridiculous range: smartphones, laptops, kitchen appliances, furniture, kids' stuff, seasonal goods. Last winter my cousin bought an air humidifier and a desk lamp in the same order. Last month, a friend furnished half her studio from there.</p>
+
+            <figure class="article-image product">
+                <img src="https://cdn21vek.by/imgproxy/quality_90/plain/img/galleries/985/637/gab509sqkl_lg_60097c120f960.jpeg" alt="LG refrigerator listed on 21vek.by">
+                <figcaption>Home appliances remain a core category — hundreds of refrigerator models alone, with specs and buyer reviews on each listing.</figcaption>
+            </figure>
+
+            <figure class="article-image product">
+                <img src="https://cdn21vek.by/imgproxy/quality_90/plain/img/galleries/8167/273/hbook15mak4t32e3w_horizont_6405c314047e0.jpeg" alt="Horizont laptop listed on 21vek.by">
+                <figcaption>Electronics sit right alongside appliances — laptops, phones, headphones, all searchable from the same account.</figcaption>
+            </figure>
+
             <p>What I appreciate now, as an adult who hates wasting afternoons in traffic, is that you can actually research before you buy. Filter by brand. Read reviews from other buyers in Belarus. Check whether delivery reaches your city before you fall in love with a couch that won't ship to your region. (Learned that one the hard way — not on 21vek, but still.)</p>
 
             <h2>Delivery Stories Are the Real Reviews</h2>
@@ -322,8 +328,8 @@ const articles = [
             <p>I've heard mixed stories over the years — like any large retailer — but the overall pattern among people I know is pretty consistent: orders arrive, support responds, returns aren't a nightmare. For a market where online shopping still makes some older relatives nervous, that matters more than any slogan about "empowering e-commerce growth."</p>
 
             <figure class="article-image product">
-                <img src="https://www.21vek.by/img/up/logo_21vek.by.png" alt="21vek.by official logo">
-                <figcaption>The logo hasn't changed much over the years — and honestly, that's part of the point. Familiarity builds trust.</figcaption>
+                <img src="https://cdn21vek.by/imgproxy/quality_90/plain/img/galleries/9192/481/6625109_atlant_9192481_961c6bcdb0c69af533e17535c155bfb2.jpg" alt="Atlant refrigerator available on 21vek.by with nationwide delivery">
+                <figcaption>My aunt's Atlant fridge came through 21vek.by delivery to a regional city — no pickup point drama, just dropped off at the door.</figcaption>
             </figure>
 
             <p>My mom still calls it "that website where we bought the kettle." She doesn't know what e-commerce means and she doesn't care. She knows the site works.</p>
@@ -333,8 +339,8 @@ const articles = [
             <p>Recommendations feel less random. Checkout is faster. Payment options expanded — Halva MIX, Smart Card, Supersila, and other local installment programs all integrate directly at checkout. None of this is revolutionary on a global scale, but for a regional platform that's been operating since 2004, steady improvement beats flashy rebrands every time.</p>
 
             <figure class="article-image product">
-                <img src="https://cdn21vek.by/installment_cards/main/halvaMix@2x.png" alt="Halva MIX installment card accepted at 21vek.by">
-                <figcaption>Multiple installment partners mean you're not locked into one bank's terms — useful when you're buying a fridge and a laptop in the same month.</figcaption>
+                <img src="https://cdn21vek.by/imgproxy/quality_90/plain/img/galleries/10513/918/10513918_3f7c1de0dbb38a2315e3729d589470eb.png" alt="Notebook computer listed on 21vek.by">
+                <figcaption>Product pages load cleanly on mobile too — useful when you're comparing laptop specs on the commute home.</figcaption>
             </figure>
 
             <h2>Should You Use It?</h2>
