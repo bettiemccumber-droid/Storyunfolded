@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <span class="category">${article.category}</span>
                     <h3>${article.title}</h3>
                     <p class="meta"><i class="far fa-calendar"></i> ${formatDate(article.date)}</p>
-                    <a href="article.html?id=${article.id}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    <a href="/${getArticlePath(article)}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </article>
         `).join('');
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <img src="${article.image}" alt="${article.title}">
                 <div class="card-content">
                     <span class="category">${article.category}</span>
-                    <h4><a href="article.html?id=${article.id}">${article.title}</a></h4>
+                    <h4><a href="/${getArticlePath(article)}">${article.title}</a></h4>
                     <p class="meta"><i class="far fa-calendar"></i> ${formatDate(article.date)}</p>
                 </div>
             </article>
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <img src="${article.image}" alt="${article.title}">
                 <div class="card-content">
                     <span class="category">${article.category}</span>
-                    <h4><a href="article.html?id=${article.id}">${article.title}</a></h4>
+                    <h4><a href="/${getArticlePath(article)}">${article.title}</a></h4>
                     <p class="meta"><i class="far fa-calendar"></i> ${formatDate(article.date)}</p>
                 </div>
             </article>
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="post-item">
                 <img src="${article.image}" alt="${article.title}">
                 <div>
-                    <h4><a href="article.html?id=${article.id}">${article.title}</a></h4>
+                    <h4><a href="/${getArticlePath(article)}">${article.title}</a></h4>
                     <p class="meta"><i class="far fa-calendar"></i> ${formatDate(article.date)}</p>
                 </div>
             </div>

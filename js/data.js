@@ -619,3 +619,86 @@ const categories = [
 function sortArticlesByDateDesc(articleList) {
     return [...articleList].sort((a, b) => new Date(b.date) - new Date(a.date));
 }
+
+/**
+ * Build a URL-safe slug from an article title.
+ * @param {string} title - Article title
+ * @returns {string} Slug for use in paths
+ */
+function slugifyTitle(title) {
+    return title
+        .toLowerCase()
+        .normalize('NFKD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/\s*&\s*/g, '-and-')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '')
+        .substring(0, 120);
+}
+
+/**
+ * @param {{ slug?: string, title: string }} article - Article record
+ * @returns {string} URL slug
+ */
+function getArticleSlug(article) {
+    if (article.slug) {
+        return article.slug;
+    }
+    return slugifyTitle(article.title);
+}
+
+/**
+ * @param {{ slug?: string, title: string }} article - Article record
+ * @returns {string} Relative path from site root, e.g. article/my-post.html
+ */
+function getArticlePath(article) {
+    return `article/${getArticleSlug(article)}.html`;
+}
+
+/**
+ * @param {string} slug - Article slug from the URL
+ * @returns {object | undefined} Matching article
+ */
+function findArticleBySlug(slug) {
+    if (!slug) {
+        return undefined;
+    }
+    const normalized = slug.toLowerCase();
+    return articles.find((a) => getArticleSlug(a).toLowerCase() === normalized);
+}
+
+/**
+ * Resolve article from legacy ?id=, ?slug=, or /article/{slug}.html paths.
+ * @returns {object | undefined} Matching article
+ */
+function findArticleFromLocation() {
+    const params = new URLSearchParams(window.location.search);
+    const idParam = parseInt(params.get('id'), 10);
+    if (!Number.isNaN(idParam) && idParam > 0) {
+        return articles.find((a) => a.id === idParam);
+    }
+
+    const slugParam = params.get('slug');
+    if (slugParam) {
+        return findArticleBySlug(slugParam);
+    }
+
+    const pathMatch = window.location.pathname.match(/\/article\/([^/]+)\.html$/i);
+    if (pathMatch) {
+        return findArticleBySlug(decodeURIComponent(pathMatch[1]));
+    }
+
+    return undefined;
+}
+
+/**
+ * @param {{ slug?: string, title: string }} article - Article record
+ * @returns {string} Absolute canonical article URL
+ */
+function getArticleCanonicalUrl(article) {
+    const path = getArticlePath(article);
+    if (window.location.origin && window.location.origin !== 'null') {
+        return `${window.location.origin}/${path}`;
+    }
+    return `https://storyunfolded.top/${path}`;
+}

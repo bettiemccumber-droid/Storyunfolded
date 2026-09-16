@@ -1,30 +1,23 @@
 ﻿document.addEventListener('DOMContentLoaded', function() {
-    // Get article ID from URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const articleId = parseInt(urlParams.get('id'));
-    
-    // Find the article
-    const article = articles.find(a => a.id === articleId);
-    
+    const article = findArticleFromLocation();
+
     if (!article) {
         document.getElementById('articleHeader').innerHTML = '<h1>Article not found</h1>';
         return;
     }
 
-    // Update SEO Meta Tags
-    updateSEOTags(article);
+    const canonicalPath = `/${getArticlePath(article)}`;
+    const onLegacyArticlePage = /\/article\.html$/i.test(window.location.pathname);
+    const hasLegacyQuery =
+        new URLSearchParams(window.location.search).has('id') ||
+        new URLSearchParams(window.location.search).has('slug');
 
-    /** @type {HTMLElement | null} */
-    const navPageTitle = document.getElementById('navPageTitle');
-    const navContainer = document.querySelector('.navbar .container');
-    if (navPageTitle && navContainer) {
-        navPageTitle.textContent = article.title;
-        navPageTitle.title = article.title;
-        navPageTitle.hidden = false;
-        navContainer.classList.add('has-page-title');
+    if (onLegacyArticlePage || hasLegacyQuery || window.location.pathname !== canonicalPath) {
+        window.history.replaceState(null, '', canonicalPath);
     }
 
-    // Render article header
+    updateSEOTags(article);
+
     document.getElementById('articleHeader').innerHTML = `
         <span class="category">${article.category}</span>
         <h1>${article.title}</h1>
@@ -36,14 +29,12 @@
         <img src="${article.image}" alt="${article.title}">
     `;
 
-    // Render article content
     document.getElementById('articleContent').innerHTML = article.content;
 
-    // Render related articles
     const relatedArticles = sortArticlesByDateDesc(
         articles.filter(a => a.category === article.category && a.id !== article.id)
     ).slice(0, 3);
-    
+
     document.getElementById('relatedArticles').innerHTML = relatedArticles.map(a => `
         <article class="post-card">
             <img src="${a.image}" alt="${a.title}">
@@ -51,24 +42,22 @@
                 <span class="category">${a.category}</span>
                 <h3>${a.title}</h3>
                 <p class="meta"><i class="far fa-calendar"></i> ${formatDate(a.date)}</p>
-                <a href="article.html?id=${a.id}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                <a href="/${getArticlePath(a)}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
     `).join('');
 
-    // Render recent posts in sidebar
     const recentPosts = sortArticlesByDateDesc(articles).slice(0, 5);
     document.getElementById('recentPosts').innerHTML = recentPosts.map(a => `
         <div class="post-item">
             <img src="${a.image}" alt="${a.title}">
             <div>
-                <h4><a href="article.html?id=${a.id}">${a.title}</a></h4>
+                <h4><a href="/${getArticlePath(a)}">${a.title}</a></h4>
                 <p class="meta"><i class="far fa-calendar"></i> ${formatDate(a.date)}</p>
             </div>
         </div>
     `).join('');
 
-    // Render categories in sidebar
     document.getElementById('categoryList').innerHTML = categories.map(cat => `
         <li>
             <a href="blog.html?category=${cat.slug}">
@@ -78,17 +67,15 @@
         </li>
     `).join('');
 
-    // Mobile menu
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const navMenu = document.querySelector('.nav-menu');
-    
+
     if (mobileMenuToggle) {
         mobileMenuToggle.addEventListener('click', function() {
             navMenu.classList.toggle('active');
         });
     }
 
-    // Back to top
     const backToTop = document.getElementById('backToTop');
     window.addEventListener('scroll', function() {
         if (window.pageYOffset > 300) {
@@ -97,45 +84,49 @@
             backToTop.classList.remove('show');
         }
     });
-    
+
     backToTop.addEventListener('click', function() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 });
 
-// Update SEO Meta Tags dynamically
+/**
+ * Update document meta tags and canonical URL for the active article.
+ * @param {object} article - Article record
+ */
 function updateSEOTags(article) {
-    // Update title
+    const canonicalUrl = getArticleCanonicalUrl(article);
+
     document.title = `${article.title} | Storyunfolded`;
-    
-    // Update meta description
+
     updateMetaTag('name', 'description', article.excerpt);
     updateMetaTag('name', 'keywords', `${article.category}, ${article.title}, product review, lifestyle tips`);
-    
-    // Update Open Graph tags
+
     updateMetaTag('property', 'og:title', article.title);
     updateMetaTag('property', 'og:description', article.excerpt);
     updateMetaTag('property', 'og:image', article.image);
-    updateMetaTag('property', 'og:url', window.location.href);
+    updateMetaTag('property', 'og:url', canonicalUrl);
     updateMetaTag('property', 'article:published_time', article.date);
     updateMetaTag('property', 'article:section', article.category);
-    
-    // Update Twitter Card tags
+
     updateMetaTag('property', 'twitter:title', article.title);
     updateMetaTag('property', 'twitter:description', article.excerpt);
     updateMetaTag('property', 'twitter:image', article.image);
-    
-    // Update canonical URL
+    updateMetaTag('property', 'twitter:url', canonicalUrl);
+
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) {
-        canonical.href = window.location.href;
+        canonical.href = canonicalUrl;
     }
-    
-    // Add structured data for article
-    addArticleStructuredData(article);
+
+    addArticleStructuredData(article, canonicalUrl);
 }
 
-// Helper function to update meta tags
+/**
+ * @param {string} attr - Attribute name (name or property)
+ * @param {string} attrValue - Attribute value
+ * @param {string} content - Meta content
+ */
 function updateMetaTag(attr, attrValue, content) {
     let element = document.querySelector(`meta[${attr}="${attrValue}"]`);
     if (element) {
@@ -148,8 +139,11 @@ function updateMetaTag(attr, attrValue, content) {
     }
 }
 
-// Add structured data for article
-function addArticleStructuredData(article) {
+/**
+ * @param {object} article - Article record
+ * @param {string} canonicalUrl - Canonical page URL
+ */
+function addArticleStructuredData(article, canonicalUrl) {
     const script = document.createElement('script');
     script.type = 'application/ld+json';
     script.text = JSON.stringify({
@@ -174,7 +168,7 @@ function addArticleStructuredData(article) {
         },
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": window.location.href
+            "@id": canonicalUrl
         },
         "articleSection": article.category,
         "keywords": `${article.category}, product review, lifestyle`
@@ -182,7 +176,6 @@ function addArticleStructuredData(article) {
     document.head.appendChild(script);
 }
 
-// Share functions
 function shareOnFacebook() {
     const url = encodeURIComponent(window.location.href);
     window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank', 'width=600,height=400');
@@ -206,6 +199,10 @@ function shareOnLinkedIn() {
     window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank', 'width=600,height=400');
 }
 
+/**
+ * @param {string} dateString - ISO date string
+ * @returns {string} Formatted date
+ */
 function formatDate(dateString) {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     return new Date(dateString).toLocaleDateString('en-US', options);
