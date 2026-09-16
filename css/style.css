@@ -768,6 +768,16 @@ a {
     padding: 20px;
 }
 
+.article-content a {
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.article-content a:hover {
+    opacity: 0.85;
+}
+
 .share-section {
     margin: 50px 0;
     padding: 30px;
