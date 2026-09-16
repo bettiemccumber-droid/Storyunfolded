@@ -768,14 +768,20 @@ a {
     padding: 20px;
 }
 
-.article-content a {
-    color: var(--primary-color);
+.article-content a,
+.article-content figcaption a {
+    color: var(--secondary-color);
+    font-weight: 600;
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    text-decoration-color: rgba(231, 76, 60, 0.85);
 }
 
-.article-content a:hover {
-    opacity: 0.85;
+.article-content a:hover,
+.article-content figcaption a:hover {
+    color: #c0392b;
+    text-decoration-color: #c0392b;
 }
 
 .share-section {
