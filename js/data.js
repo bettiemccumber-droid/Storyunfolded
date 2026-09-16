@@ -473,6 +473,67 @@ const articles = [
             <p>I made the wedding on time. The train was comfortable enough. And I spent the energy I would've wasted on booking tabs actually enjoying the celebration. For a domestic trip, that's about as good as it gets.</p>
             <p>If you've got travel coming up, give it a try — <a href="https://www.linkbux.com/track/49fdddLFCbVtyqjF_b99P3GwZ423XSdZeLKD6u0UXzLcST0FuT5woXmjPmZL1SB3kBiERBQc_c?url=https%3A%2F%2Ftickets.ua%2F" target="_blank" rel="noopener noreferrer">tickets.ua</a> is worth bookmarking before you open those six tabs I mentioned. Your future self will thank you.</p>
         `
+    },
+    {
+        id: 14,
+        title: "Dore & Rose: Premium Mulberry Silk Sleep Essentials for Healthier Hair & Skin",
+        category: "Beauty",
+        date: "2026-09-03",
+        image: "https://doreandrose.com/cdn/shop/files/Menu_Pillowcases_8e655351-3533-4c67-9b5a-3fe5e7f6f49b.jpg?v=1772112276&width=900",
+        excerpt: "I bought a silk pillowcase to stop waking up with crease marks on my face. Six months later, my hair stopped fighting me every morning — and I finally understood what my sister meant.",
+        content: `
+            <p>My sister sent me a screenshot last winter: "Stop sleeping on cotton like it's a personality trait." Dramatic, but she wasn't wrong. I'd been waking up with pillow lines etched into my cheek and hair that looked like it had been through a static electricity experiment. I blamed stress. I blamed the weather. I never blamed the $12 pillowcase I'd had since college.</p>
+            <p>She'd switched to mulberry silk a year earlier and kept talking about it in that low-key way people do when something actually works — not influencer energy, just "you should try this." The brand she mentioned was <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=8b51K4CdUcpITtT_b2dxABJdwv2KAHd7hZZ_bK7fLex3j0NTna5FCpkFcBzzLkWGxZge7nfd8sQppbVOuBYYGZZJxLtdIbsfDhOgN4aQ_c_c&new=https%3A%2F%2Fdoreandrose.com%2F" target="_blank" rel="noopener noreferrer">Dore & Rose</a>. I rolled my eyes, then ordered one pillowcase anyway. Curiosity plus vanity is a powerful combo.</p>
+
+            <h2>The First Week Felt Like Nothing — Then It Didn't</h2>
+            <p>Silk marketing is full of miracle claims. I'm skeptical of all of them. The first few nights, the pillowcase just felt… smooth. Cooler than cotton. Nice, not life-changing.</p>
+            <p>By week two, I noticed I wasn't digging through tangles before my first coffee. By week four, the crease marks on my face were gone enough that I stopped reaching for concealer before video calls. Small things. The kind you only notice when they quietly disappear.</p>
+
+            <figure class="article-image">
+                <img src="https://doreandrose.com/cdn/shop/files/dorerose_1_White_Pillowcases_Solo_012.jpg?v=1769010077&width=900" alt="Dore and Rose premium mulberry silk pillowcase">
+                <figcaption>The pillowcase was the gateway — 22 momme mulberry silk, smooth enough that your skin and hair aren't wrestling the fabric all night.</figcaption>
+            </figure>
+
+            <h2>Why Mulberry Silk Actually Matters (Not Just "Luxury")</h2>
+            <p>Cotton grabs hair. It absorbs moisture from your skin and scalp. It creases. Mulberry silk — especially at higher momme weights — creates less friction. That's not wellness fluff; it's basic physics your hairdresser already knows and your dermatologist will nod about.</p>
+            <p><a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=8b51K4CdUcpITtT_b2dxABJdwv2KAHd7hZZ_bK7fLex3j0NTna5FCpkFcBzzLkWGxZge7nfd8sQppbVOuBYYGZZJxLtdIbsfDhOgN4aQ_c_c&new=https%3A%2F%2Fdoreandrose.com%2F" target="_blank" rel="noopener noreferrer">Dore & Rose</a> focuses on sleep essentials: pillowcases, sleep masks, bonnets, sleepwear. Their silk pieces are infused with silver ions — an antimicrobial touch that matters if you're the type who only washes pillowcases when you remember (guilty). Less bacteria buildup on fabric that touches your face eight hours a night? I'll take it.</p>
+
+            <h2>What I Added After the Pillowcase</h2>
+            <p>Once I bought in, I didn't go full catalog — I'm not building a silk empire. But two additions genuinely earned their drawer space:</p>
+            <ul>
+                <li><strong>Silk sleep mask</strong> — blocks light without smashing my eyelashes or leaving red lines across my nose bridge</li>
+                <li><strong>Silk bonnet</strong> — for nights when I wash my hair and need it to stay smooth until morning</li>
+            </ul>
+            <p>The mask sounds trivial until you've used one that doesn't feel like a weighted headband. The bonnet sounds extra until you wake up and your curls are still curls, not a abstract art project.</p>
+
+            <figure class="article-image">
+                <img src="https://doreandrose.com/cdn/shop/files/Menu_Sleepmasks.jpg?v=1772112894&width=900" alt="Dore and Rose silk sleep masks">
+                <figcaption>A padded silk sleep mask blocks light without the tight elastic headache — especially if you're a side sleeper.</figcaption>
+            </figure>
+
+            <figure class="article-image">
+                <img src="https://doreandrose.com/cdn/shop/files/PillowcaseandDeepSleepBundleblue.jpg?v=1762439498&width=900" alt="Dore and Rose silk pillowcase and sleep mask set">
+                <figcaption>I started with a bundle like this — pillowcase plus mask — before deciding which pieces I'd rebuy solo.</figcaption>
+            </figure>
+
+            <h2>Hair vs. Skin: Same Fabric, Different Wins</h2>
+            <p>For hair, silk reduces breakage and frizz caused by friction — especially if you have textured, color-treated, or long hair that spends hours rubbing against fabric. For skin, the argument is gentler contact overnight, less pulling on delicate areas, and fewer sleep creases that turn into fine lines over time. Neither replaces sunscreen or a good moisturizer. Both complement them in the boring, unglamorous way sleep hygiene always does.</p>
+
+            <figure class="article-image">
+                <img src="https://doreandrose.com/cdn/shop/files/Scallop_Silk_Pink_White_Lifestyle.jpg?v=1784692281&width=900" alt="Dore and Rose silk sleepwear lifestyle">
+                <figcaption>Their sleepwear line follows the same logic — soft fabrics that don't fight your skin while you actually rest.</figcaption>
+            </figure>
+
+            <h2>Price Reality Check</h2>
+            <p>Silk isn't cheap. A quality mulberry pillowcase costs more than a five-pack of cotton covers — obviously. I think of it like replacing cheap shoes that hurt your feet: pay once, use nightly, amortize over hundreds of sleeps. If you're struggling to afford groceries, skip this entirely. If you're already spending on serums and heat protectant, a pillowcase that protects both hair and skin overnight is a sensible place to redirect one purchase.</p>
+
+            <h2>What I'd Skip (Honestly)</h2>
+            <p>You don't need every color, every collection drop, every matching set unless that genuinely makes you happy. I ignored the trend-cycle marketing and stuck to white and navy — boring, repeatable, easy to laundry-day without thinking. The "Chocolate Au Nuit" collection is pretty; I didn't need it. Know yourself.</p>
+
+            <h2>Would I Recommend Dore & Rose?</h2>
+            <p>If you're waking up with frizz, face creases, or that vague "why does my skin look tired when I slept eight hours" feeling, mulberry silk sleep essentials are worth trying before you add another $80 serum to the cart. <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=8b51K4CdUcpITtT_b2dxABJdwv2KAHd7hZZ_bK7fLex3j0NTna5FCpkFcBzzLkWGxZge7nfd8sQppbVOuBYYGZZJxLtdIbsfDhOgN4aQ_c_c&new=https%3A%2F%2Fdoreandrose.com%2F" target="_blank" rel="noopener noreferrer">Dore & Rose</a> isn't the only silk brand on earth, but the fabric quality, product range, and consistency matched what my sister promised — and what my morning mirror eventually confirmed.</p>
+            <p>My sister still sends dramatic texts. The latest one said, "Your hair looks less angry." I'll take that as a five-star review.</p>
+        `
     }
 ];
 
@@ -545,7 +606,7 @@ const categories = [
     { name: "Technology", count: 4, slug: "technology" },
     { name: "Fashion", count: 2, slug: "fashion" },
     { name: "Home & Living", count: 3, slug: "home" },
-    { name: "Beauty", count: 1, slug: "beauty" },
+    { name: "Beauty", count: 2, slug: "beauty" },
     { name: "Fitness", count: 2, slug: "fitness" },
     { name: "Travel", count: 2, slug: "travel" }
 ];

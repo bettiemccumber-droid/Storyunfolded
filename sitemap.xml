@@ -132,6 +132,13 @@
     <priority>0.8</priority>
   </url>
   
+  <url>
+    <loc>https://storyunfolded.top/article.html?id=14</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
   <!-- Category Pages -->
   <url>
     <loc>https://storyunfolded.top/blog.html?category=technology</loc>
