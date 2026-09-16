@@ -60,6 +60,26 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
+}
+
+.navbar .container.has-page-title {
+    flex-wrap: nowrap;
+}
+
+.nav-page-title {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    padding: 0 0.25rem;
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .logo {
@@ -1234,6 +1254,12 @@ a {
     
     .featured-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-page-title {
+        display: none;
     }
 }
 

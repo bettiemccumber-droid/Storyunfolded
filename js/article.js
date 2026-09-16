@@ -14,6 +14,16 @@
     // Update SEO Meta Tags
     updateSEOTags(article);
 
+    /** @type {HTMLElement | null} */
+    const navPageTitle = document.getElementById('navPageTitle');
+    const navContainer = document.querySelector('.navbar .container');
+    if (navPageTitle && navContainer) {
+        navPageTitle.textContent = article.title;
+        navPageTitle.title = article.title;
+        navPageTitle.hidden = false;
+        navContainer.classList.add('has-page-title');
+    }
+
     // Render article header
     document.getElementById('articleHeader').innerHTML = `
         <span class="category">${article.category}</span>
