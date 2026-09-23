@@ -534,6 +534,64 @@ const articles = [
             <p>If you're waking up with frizz, face creases, or that vague "why does my skin look tired when I slept eight hours" feeling, <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=8b51K4CdUcpITtT_b2dxABJdwv2KAHd7hZZ_bK7fLex3j0NTna5FCpkFcBzzLkWGxZge7nfd8sQppbVOuBYYGZZJxLtdIbsfDhOgN4aQ_c_c&new=https%3A%2F%2Fdoreandrose.com%2F" target="_blank" rel="noopener noreferrer">mulberry silk sleep essentials</a> are worth trying before you add another $80 serum to the cart. <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=8b51K4CdUcpITtT_b2dxABJdwv2KAHd7hZZ_bK7fLex3j0NTna5FCpkFcBzzLkWGxZge7nfd8sQppbVOuBYYGZZJxLtdIbsfDhOgN4aQ_c_c&new=https%3A%2F%2Fdoreandrose.com%2F" target="_blank" rel="noopener noreferrer">Dore & Rose</a> isn't the only silk brand on earth, but the fabric quality, product range, and consistency matched what my sister promised — and what my morning mirror eventually confirmed.</p>
             <p>My sister still sends dramatic texts. The latest one said, "Your hair looks less angry." I'll take that as a five-star review. If you want to browse the full collection, visit <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=8b51K4CdUcpITtT_b2dxABJdwv2KAHd7hZZ_bK7fLex3j0NTna5FCpkFcBzzLkWGxZge7nfd8sQppbVOuBYYGZZJxLtdIbsfDhOgN4aQ_c_c&new=https%3A%2F%2Fdoreandrose.com%2F" target="_blank" rel="noopener noreferrer">doreandrose.com</a>.</p>
         `
+    },
+    {
+        id: 15,
+        title: "Qronge: Electric Dirt Bikes and eBikes That Punch Above Their Price Tag",
+        category: "Technology",
+        date: "2026-09-07",
+        image: "https://cdn.shopify.com/s/files/1/0801/4456/4441/files/2-1_4.jpg?v=1788423860&width=900",
+        excerpt: "My neighbor kept calling his Qronge a \"mini Surron\" until I finally rode it. I showed up skeptical about budget e-motos — I left wondering why I ever assumed cheap meant boring.",
+        content: `
+            <p>There's a guy two houses down who treats his garage like a pit lane. Last summer he rolled out this compact orange bike, no exhaust note, just a quiet whine and a grin. I asked what it was. He said, "<a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">Qronge</a> — basically a budget electric dirt bike." I nodded like I understood. I didn't. Not until he tossed me the keys to his <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">X1 Spark M</a> and I realized how wrong my mental map of "affordable e-moto" was.</p>
+            <p>I'd assumed anything under premium Surron money would feel like a toy — plasticky, underpowered, something you'd outgrow in a month. The first lap up a sandy fire road behind our neighborhood changed that assumption. Mid-drive torque, real suspension travel, tires that actually bite. Not magic. Not luxury. Just… competent in a way I wasn't expecting from a brand I had to Google on my phone mid-ride.</p>
+
+            <h2>What Qronge Actually Sells (Beyond the Hype Videos)</h2>
+            <p><a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">Qronge</a> built its name on value-forward <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">electric dirt bikes</a> and commuter <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">eBikes</a>. The lineup splits roughly into two camps: off-road Spark models (X1 Spark M and L for different wheel sizes, X5 and X7 if you want serious peak power on paper) and everyday riders like Mirage, Meteors, Thunder, Zephyr, and the Lava trike for people who want stability over swagger.</p>
+            <p>That split matters. If you're buying for trail weekends, you're shopping Spark geometry and suspension. If you're buying to replace car trips under five miles, you're looking at step-through commuters and folding fat-tire builds. Same brand, different problems solved — which is healthier than pretending one bike does everything.</p>
+
+            <figure class="article-image product">
+                <img src="https://cdn.shopify.com/s/files/1/0801/4456/4441/files/2-1_4.jpg?v=1788423860&width=900" alt="Qronge X1 Spark M electric mini dirt bike">
+                <figcaption>The <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">X1 Spark M</a> is the gateway drug — compact wheel setup, 4500W peak mid-drive energy, and enough suspension to keep your wrists from filing a complaint.</figcaption>
+            </figure>
+
+            <h2>X1 Spark M vs. L: Size Is the Whole Argument</h2>
+            <p>Qronge runs the same power platform on two wheel packages: Spark M with smaller 14/12-inch setup for tighter handling, Spark L with 17/14-inch wheels if you're taller or want more stability at speed. My neighbor is 5'9" and loves the M for quick direction changes. I'm 6'1" and felt more at home on the L — less cramped, less "pit bike cosplay," more planted when the trail gets chunky.</p>
+            <p>Neither replaces a full-size gas motocross bike if you're racing. Both absolutely replace "I can't afford a Surron but I still want dirt access" energy. That's the niche, and Qronge owns it honestly instead of pretending you're getting a pro race machine for pocket change.</p>
+
+            <figure class="article-image product">
+                <img src="https://cdn.shopify.com/s/files/1/0801/4456/4441/files/X1-L_-_2_969ebbc4-2c7b-4b60-8043-73a1bb9f237d.jpg?v=1785395174&width=900" alt="Qronge X1 Spark L electric dirt bike">
+                <figcaption><a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">X1 Spark L</a> — bigger wheels, same 4500W peak story, better if your knees have opinions about compact frames.</figcaption>
+            </figure>
+
+            <h2>When You Don't Need Dirt at All</h2>
+            <p>Not everyone wants sand in their shoes. My coworker commutes on a <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">Mirage Ebike</a> — folding frame, fat tires, fits in her sedan trunk for weekend lake trips. Another friend chose the <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">Meteors Ebike</a> for a straight city commute: step-through access, sensible range, less "look at me" than the Spark lineup. Same parent brand, totally different Tuesday morning.</p>
+
+            <figure class="article-image product">
+                <img src="https://cdn.shopify.com/s/files/1/0801/4456/4441/files/2_b4788829-955b-46dd-98f4-89ce6a7fc01a.jpg?v=1772529547&width=900" alt="Qronge Mirage folding fat tire eBike">
+                <figcaption>Folding <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">Mirage eBike</a> — portability first, but the 20×3.0 tires still feel planted on broken pavement.</figcaption>
+            </figure>
+
+            <figure class="article-image product">
+                <img src="https://cdn.shopify.com/s/files/1/0801/4456/4441/files/2_c0f84b25-dbfb-4105-81a4-da10be7b2eb9.jpg?v=1772529246&width=900" alt="Qronge Meteors commuter eBike">
+                <figcaption>The <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">Meteors eBike</a> line targets riders who want range and comfort without pretending they're heading to Moab every weekend.</figcaption>
+            </figure>
+
+            <h2>Specs on Paper vs. Ride Feel on Dirt</h2>
+            <p>Qronge loves big numbers in headlines — peak watts, top speed, range bands wide enough to mean "depends how hard you twist it." Fair. Every e-moto brand does that. What surprised me reading owner reviews and riding myself was how much they invest in usable power: mid-drive on the Spark line, adjustable suspension, chain guides and parts support (they sell spares openly, which matters when you're actually using the thing).</p>
+            <p>If you move up to <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">X5 Spark</a> or <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">X7 Spark</a> territory, you're paying for higher peak output and bigger battery packs — overkill for neighborhood trails, sensible if you're chasing long-range off-road days and your budget still isn't Surron-shaped.</p>
+
+            <h2>Buying Practicalities (Shipping, Warranty, Installments)</h2>
+            <p>I'm not a "read the footer policies" person until I've already fallen in love with the product photo. Qronge at least makes the boring stuff visible: free shipping on many orders, 15-day returns, one-year warranty, installment options at checkout, and US support hours listed plainly (833-489-0550, Mon–Fri Pacific). That doesn't replace doing your own local law homework on where you can ride electric dirt bikes — please do that — but it beats mystery-box imports with zero recourse.</p>
+            <p>September promos rotate (anniversary sales, bundle discounts on dual-bike packs). If you're timing a purchase, check the homepage before you assume list price is final. My neighbor saved enough on a bundle to justify upgrading tires immediately — priorities.</p>
+
+            <h2>Who Should Skip Qronge (And Who Should Click)</h2>
+            <p>Skip it if you need a street-legal motorcycle replacement with dealer network and factory service bays on every corner — this is direct-to-consumer electric mobility, not Harley-Davidson heritage. Skip it if you won't assemble or inspect a shipped bike seriously; boxed bikes always deserve a torque check.</p>
+            <p>Consider it if you want <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">high-performance off-road motorcycles</a> energy without selling a kidney, or a commuter eBike that doesn't treat "budget" as an excuse for flimsy frames. I still don't own one — my neighbor would never let me live it down if I copied him outright — but I've stopped side-eyeing the category.</p>
+
+            <h2>Would I Recommend Qronge?</h2>
+            <p>For trail-curious riders and commuters who watch YouTube comparisons at 1 a.m., yes — with eyes open. <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">Qronge electric dirt bikes</a> and eBikes aren't the only players in town, but they deliver the thing that hooked me on that first ride: honest fun per dollar. Browse specs, compare Spark M vs L, and see current deals at <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">qronge.com</a> — then borrow a neighbor's keys if you can. Faster than reading another spec sheet.</p>
+        `
     }
 ];
 
@@ -603,7 +661,7 @@ const products = [
 
 // Categories with counts
 const categories = [
-    { name: "Technology", count: 4, slug: "technology" },
+    { name: "Technology", count: 5, slug: "technology" },
     { name: "Fashion", count: 2, slug: "fashion" },
     { name: "Home & Living", count: 3, slug: "home" },
     { name: "Beauty", count: 2, slug: "beauty" },

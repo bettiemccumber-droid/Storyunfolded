@@ -11,9 +11,10 @@ const idRe = /id:\s*(\d+),/g;
 const titleRe = /title:\s*"((?:\\.|[^"\\])*)"/g;
 const dateRe = /date:\s*"([^"]+)"/g;
 
-const ids = [...block.matchAll(idRe)].map((m) => m[1]).slice(0, 14);
-const titles = [...block.matchAll(titleRe)].map((m) => m[1].replace(/\\"/g, '"')).slice(0, 14);
-const dates = [...block.matchAll(dateRe)].map((m) => m[1]).slice(0, 14);
+const articleCount = (block.match(/^\s+id:\s*\d+,/gm) || []).length;
+const ids = [...block.matchAll(idRe)].map((m) => m[1]).slice(0, articleCount);
+const titles = [...block.matchAll(titleRe)].map((m) => m[1].replace(/\\"/g, '"')).slice(0, articleCount);
+const dates = [...block.matchAll(dateRe)].map((m) => m[1]).slice(0, articleCount);
 
 for (let i = 0; i < ids.length; i++) {
     entries.push({ id: ids[i], title: titles[i], date: dates[i] });
