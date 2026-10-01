@@ -592,6 +592,56 @@ const articles = [
             <h2>Would I Recommend Qronge?</h2>
             <p>For trail-curious riders and commuters who watch YouTube comparisons at 1 a.m., yes — with eyes open. <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">Qronge electric dirt bikes</a> and eBikes aren't the only players in town, but they deliver the thing that hooked me on that first ride: honest fun per dollar. Browse specs, compare Spark M vs L, and see current deals at <a class="affiliate-link" href="https://go.ultrainfluence.com/t/ab10_bgL_aDlK9YuctfreZGd8IPMvMWpTIkhozupRr6UYdNHhe67cpRxPlugqLwPllSlX_aSIiFy7tPOSs13KK2_aY4rMAkYvS1ShWueMzUV?url=https%3A%2F%2Fwww.qronge.com" target="_blank" rel="noopener noreferrer">qronge.com</a> — then borrow a neighbor's keys if you can. Faster than reading another spec sheet.</p>
         `
+    },
+    {
+        id: 16,
+        title: "Cabela's Canada: One Stop for Hunting, Fishing, and Camping Gear That Survives Real Weather",
+        category: "Travel",
+        date: "2026-09-11",
+        image: "https://cdn.dynamicyield.com/api/8768423/images/2c827eb803bbc__w26j_billboard_bkgrnd_img.jpg",
+        excerpt: "My uncle still calls every sleeping bag \"the Cabela's one\" from 2009. When I finally planned my own lake trip, I understood why Canadians treat cabelas.ca like a checklist, not a browse.",
+        content: `
+            <p>The first time I went north with my uncle, I showed up with a discount-store rain jacket and optimism. He looked at my pack, sighed, and said, \"We're fixing this at <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">Cabela's Canada</a>.\" I thought he meant one item. He meant the whole trip — waders, tackle, camp chair, the kind of headlamp that survives being dropped in a canoe. That afternoon at the store felt overwhelming. The website, <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">cabelas.ca</a>, later became my pre-trip ritual instead of guessing in aisle twelve.</p>
+            <p>What stuck wasn't the logo — it was the scope. <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">Cabela's</a> in Canada grew out of the old S.I.R. Sports heritage and still shapes its catalog for how people actually live here: long winters, remote camps, fishing seasons that don't care about your calendar. Hunting, fishing, camping, boating, optics, footwear — thousands of SKUs, but the point is you don't need six specialty shops and a prayer.</p>
+
+            <figure class="article-image banner">
+                <img src="https://cdn.dynamicyield.com/api/8768423/images/2c827eb803bbc__w26j_billboard_bkgrnd_img.jpg" alt="Outdoor adventure scene — Cabela's Canada hunting fishing camping">
+                <figcaption>From long weekends at the lake to serious backcountry weeks, <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">Cabela's Canada</a> sells the whole outdoor story under one roof — and one cart.</figcaption>
+            </figure>
+
+            <h2>Hunting and Fishing: Where I Stop Pretending I'm an Expert</h2>
+            <p>I'm not a trophy hunter. I am someone who reads regulations twice and still worries. What helps is gear that's straightforward — outerwear that handles wind on the boat, boots that aren't fiction, optics you can trust when light fades. <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">Hunting gear</a> and <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">fishing tackle</a> at Cabela's span the serious end (Guidewear, major rod brands) and the \"first decent setup\" end. Filters on the site by category, brand, and sale status save time when you're not sure what you don't know.</p>
+
+            <figure class="article-image">
+                <img src="https://cdn.dynamicyield.com/api/8768423/images/5394457da5b__fishing9" alt="Fishing gear at Cabela's Canada">
+                <figcaption>A full <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">fishing</a> aisle online — rods, reels, waders, and the small stuff you always forget until you're at the dock.</figcaption>
+            </figure>
+
+            <h2>Camping: Tents That Aren't Back-Yard Toys</h2>
+            <p>My uncle swears by the <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">Alaskan Guide geodesic tent</a> line — overbuilt rainfly, bathtub floor, the kind of thing you buy once and use until your kids borrow it. I'm lighter on trips, but I get the philosophy: Canadian camping isn't always \"mild June at the provincial park.\" Sometimes it's wet, windy, and closer to hunting camp than Instagram. Cabela's <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">camping tents and furniture</a> section covers outfitter tents down to quick weekend setups, plus chairs that don't collapse when you finally sit down after setting up in the rain.</p>
+
+            <figure class="article-image">
+                <img src="https://cdn.dynamicyield.com/api/8768423/images/cce1d75f18b7__p11j_sleeping_promo_banner.jpg" alt="Camping sleep gear — sleeping bags and pads at Cabela's">
+                <figcaption>Sleep systems matter more than people admit — <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">sleeping bags, pads, and cots</a> are where cheap trips turn miserable around 2 a.m.</figcaption>
+            </figure>
+
+            <h2>Clothing for Canadian \"Maybe Summer, Maybe Snow\"</h2>
+            <p>Their \"We Own Winter\" messaging is cheesy until you're walking the dog at −25°C. Cabela's-branded parkas and bibs — Cambridge Bay, Kenosee, ice-fishing Guidewear — are designed with Winnipeg head-office cold in mind, not California catalog fantasy. Layering for shoulder season, rainwear that isn't disposable, boots that show up in half sizes — it's the unglamorous stuff that decides whether you go out or stay on the couch. Good <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">outdoor clothing</a> isn't fashion. It's permission to stay outside longer.</p>
+
+            <figure class="article-image">
+                <img src="https://cdn.dynamicyield.com/api/8768423/images/16279ebfb9200__p11j_rainwear_promo_banner_new.jpg" alt="Rainwear and outerwear at Cabela's Canada">
+                <figcaption>Waterproof <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">rainwear and outerwear</a> — the layer between \"misty morning\" and \"why is this still drizzling at lunch.\"</figcaption>
+            </figure>
+
+            <h2>Shopping Online Without the Guessing Game</h2>
+            <p>I mix online and in-store depending on the trip. Order online, pick up in-store for free when I'm passing a location — useful for bulky items I don't want shipped twice. Clearance and sale filters are dangerous in the best way; my uncle calls it \"the dangerous aisle, but digital.\" Inventory shows in-stock online vs store-only on many listings, which saves the drive when something's back-ordered. Returns and warranty policies are listed upfront — read them for firearms and specialty items, obviously, but for mainstream camp gear it's been straightforward in my family’s experience.</p>
+
+            <h2>Who Cabela's Is For (Honestly)</h2>
+            <p>Not for minimalist ultralight zealots who count grams and sew their own tarps — you'll find lighter specialty brands elsewhere. Not for people who want luxury fashion with a camo accent. It shines for Canadians (and visitors planning serious outdoor time here) who want one trusted place for <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">hunting, fishing, and camping gear</a>, cold-weather clothing, cabin supplies, and the random bolt-on accessories you only remember when you're already packed.</p>
+
+            <h2>Would I Recommend Cabela's Canada?</h2>
+            <p>Yes — especially if you're building a trip kit over time instead of panic-buying the night before departure. <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">Cabela's Canada</a> won't replace learning skills on the water or in the field, but it removes the \"where do I even buy this in Canada\" friction. Start with your trip list, filter by category on <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">cabelas.ca</a>, and compare in-store pickup vs delivery before you checkout. My uncle still labels every good purchase \"the Cabela's one.\" I'm starting to see why.</p>
+        `
     }
 ];
 
@@ -666,7 +716,7 @@ const categories = [
     { name: "Home & Living", count: 3, slug: "home" },
     { name: "Beauty", count: 2, slug: "beauty" },
     { name: "Fitness", count: 2, slug: "fitness" },
-    { name: "Travel", count: 2, slug: "travel" }
+    { name: "Travel", count: 3, slug: "travel" }
 ];
 
 /**
