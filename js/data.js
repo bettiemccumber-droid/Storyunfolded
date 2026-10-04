@@ -647,6 +647,65 @@ const articles = [
             <h2>Would I Recommend Cabela's Canada?</h2>
             <p>Yes — especially if you're building a trip kit over time instead of panic-buying the night before departure. <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">Cabela's Canada</a> won't replace learning skills on the water or in the field, but it removes the \"where do I even buy this in Canada\" friction. Start with your trip list, filter by category on <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=7242qL5KAyHOXdAwcToxxaKRbchJZ1nQ0slvFUBV64JGAdvdYqoozsThLNGGi7hKjRgcA6CsmOLSjqD5KkptyyAO_b4ZMQbU_aGd2wrQ_c_c&new=https%3A%2F%2Fwww.cabelas.ca" target="_blank" rel="noopener noreferrer">cabelas.ca</a>, and compare in-store pickup vs delivery before you checkout. My uncle still labels every good purchase \"the Cabela's one.\" I'm starting to see why.</p>
         `
+    },
+    {
+        id: 17,
+        title: "Izipizi: French Eyewear That Makes Screen Time, Sun, and Reading Feel Designed — Not Generic",
+        category: "Fashion",
+        date: "2026-08-11",
+        image: "https://cdn.shopify.com/s/files/1/1007/5786/4780/files/IZI_SCR45322_MEMO_SCREEN_TOFFEE_BEIGE_F_WEB_d3cd96bc-e231-432e-a725-f5fcba958390.jpg?v=1790613895&width=800",
+        excerpt: "I bought cheap blue-light glasses once. They worked, technically — and made me look like I borrowed them from a pharmacy bin. A colleague's Izipizi pair changed what I thought \"affordable eyewear\" could look like.",
+        content: `
+            <p>Remote work turned my screen time from \"a lot\" to \"is this still legal.\" By 4 p.m. my eyes felt sandy; by 9 p.m. I was rubbing them like that would reset the day. I tried drugstore <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">blue light glasses</a> first. Fine lenses, forgettable everything else. Then a designer on our team walked into a call wearing tortoise frames that actually matched her desk — not ironic, just good. She said, \"Get <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">Izipizi</a>.\" I did. The difference was stupidly simple: I stopped taking them off the second the meeting ended.</p>
+            <p><a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">Izipizi</a> is a French eyewear brand built around accessible design — the idea that useful glasses (screen, sun, reading) shouldn't look like an afterthought. Their #E shape is the house signature: lightweight, recognizable, available in dozens of colors without turning your face into a billboard. I ordered through the German storefront at <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">izipizi.com</a>; shipping and pricing display in euros, but the product range mirrors what you'd expect across their international shops.</p>
+
+            <figure class="article-image product">
+                <img src="https://cdn.shopify.com/s/files/1/1007/5786/4780/files/IZI_SCR45322_MEMO_SCREEN_TOFFEE_BEIGE_F_WEB_d3cd96bc-e231-432e-a725-f5fcba958390.jpg?v=1790613895&width=800" alt="Izipizi Memo screen glasses in Toffee Beige worn with office style">
+                <figcaption><a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">Screen glasses</a> — Brillen für Bildschirme — in Memo Toffee Beige: mild tint, easy wear, frames you'd keep on during a coffee break.</figcaption>
+            </figure>
+
+            <h2>Screen Glasses Without the \"Gamer RGB\" Aesthetic</h2>
+            <p>Izipizi's screen range filters harsh light without making everything apocalypse orange. That's the balance — enough relief for long Slack days, not so much tint that you feel like you're editing film in a bunker. Frames come in crystal, tortoise, frozen blue, black — the usual classics — plus seasonal drops if you like a subtle flex. They're light on the nose, which matters when you forget you're wearing them until you try to put on headphones over another pair of heavy frames.</p>
+            <p>If you live on laptops and phones, one pair of <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">Izipizi screen eyewear</a> at your desk beats cycling through three mediocre ones in a drawer. Trust me — I still have the drawer.</p>
+
+            <figure class="article-image product">
+                <img src="https://cdn.shopify.com/s/files/1/1007/5786/4780/files/IZI_SCR45323_MEMO_SCREEN_ORCHID_PURPLE_F_WEB_82f3199e-706d-48e6-8701-5dcba2b0165f.jpg?v=1790613895&width=800" alt="Izipizi Memo screen glasses in Orchid Purple">
+                <figcaption>Memo <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">screen eyewear</a> in Orchid Purple — same blue-light job, softer color if tortoise feels too serious.</figcaption>
+            </figure>
+
+            <h2>Sunglasses That Share the Same DNA</h2>
+            <p>Once I liked the screen pair, I browsed <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">Izipizi sunglasses</a> — polarized options, sun lenses, the iconic #D round silhouette so your face doesn't have to learn a new shape every season. They're not trying to be €400 fashion house eyewear; they're trying to be the pair you actually bring on weekend trips instead of leaving in the car glove box.</p>
+
+            <figure class="article-image product">
+                <img src="https://cdn.shopify.com/s/files/1/1007/5786/4780/files/SLMSDC135_00-IZI_D_SUN_YELLOWHONEY_02_42330b63-7b19-43d0-b317-90d762fc44b3.jpg?v=1790612164&width=800" alt="Izipizi #D sun sunglasses Yellow Honey on a smiling model">
+                <figcaption>#D <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">Sonnenbrillen</a> in Yellow Honey — warm translucent frames that still read casual, not costume.</figcaption>
+            </figure>
+
+            <figure class="article-image product">
+                <img src="https://cdn.shopify.com/s/files/1/1007/5786/4780/files/SLMSDC238_00-IZI_D_SUN_HAVANE_01_5c60b027-83a7-46df-a009-328ef32341c5.jpg?v=1790612165&width=800" alt="Izipizi #D sun sunglasses Havane tortoise">
+                <figcaption>Havane tortoise on the same #D shape — the classic <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">Izipizi sunglasses</a> pick if you want one pair for everything sunny.</figcaption>
+            </figure>
+
+            <figure class="article-image product">
+                <img src="https://cdn.shopify.com/s/files/1/1007/5786/4780/files/SUN0426701X00-IZI_D_SUN_Crystal_20Polarized_01_ae620110-f930-4823-b632-0734b9d7e9bd.jpg?v=1790613602&width=800" alt="Izipizi #D Crystal polarized sunglasses">
+                <figcaption>Crystal frames with polarized lenses — glare cut for driving and water, without hiding your face behind opaque plastic.</figcaption>
+            </figure>
+
+            <h2>Reading, Sleeping, and the \"Oh, I'm That Age\" Moment</h2>
+            <p>I'm not proud of how long I resisted reading glasses. Menus in dim restaurants were a blur; I blamed the lighting. Izipizi's <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">Lesebrille</a> line uses the same design language — crystal frames, classic black, strengths laid out clearly so you're not guessing in the drugstore aisle. They even push bundle logic (screen + reading combos) if you're building a small rotation for work and evening.</p>
+            <p>The sleeping glasses category surprised me — yes, that's a thing now. For people who scroll in bed and wonder why sleep won't arrive, a dedicated <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">sleeping eyewear</a> pair with stronger filtering is less dramatic than it sounds and more useful than another melatonin gummy habit.</p>
+            <p>The Memo capsule and seasonal collections keep <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">reading glasses</a> from feeling medical — more like picking a color that matches your bag.</p>
+
+            <h2>Kids, Sport, and the Rest of the Catalog</h2>
+            <p>Izipizi isn't only desk workers. They sell child sizes, sport-oriented pairs, and active lines if you want something that survives backpacks and bike commutes. I haven't tested every sub-line, but the brand's whole pitch is \"glasses for real life,\" not runway-only life. If you're shopping for family, filtering by category on the site is faster than wandering a mall optical shop.</p>
+
+            <h2>Price, Sustainability, and Expectations</h2>
+            <p>These aren't €15 throwaways and they're not luxury house prices either — mid-range, which fits the positioning. Acetate frames, replaceable feel, the sort of purchase you justify because you use them daily. Izipizi talks about responsible production and accessible pricing; I'm not going to oversell them as saving the planet single-handedly, but buying one good pair you keep beats buying four that scratch in a month.</p>
+            <p>Ordering from the German shop while reading English content is normal for cross-border EU brands — just watch shipping thresholds and return rules for your country before you checkout.</p>
+
+            <h2>Would I Recommend Izipizi?</h2>
+            <p>If your eyes are tired, your frames are ugly, or you're upgrading from \"random Amazon pair,\" yes. Start with <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">screen glasses</a> if you work on displays all day; add <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">sunglasses</a> or <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">reading glasses</a> when you know your use case. Browse colors and strengths at <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">Izipizi</a> — your future 4 p.m. self might thank you without sending a dramatic Slack message about burnout.</p>
+        `
     }
 ];
 
@@ -717,7 +776,7 @@ const products = [
 // Categories with counts
 const categories = [
     { name: "Technology", count: 5, slug: "technology" },
-    { name: "Fashion", count: 2, slug: "fashion" },
+    { name: "Fashion", count: 3, slug: "fashion" },
     { name: "Home & Living", count: 3, slug: "home" },
     { name: "Beauty", count: 2, slug: "beauty" },
     { name: "Fitness", count: 2, slug: "fitness" },
