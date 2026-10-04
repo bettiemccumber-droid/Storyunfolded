@@ -716,6 +716,14 @@ a {
     margin-top: 20px;
 }
 
+.article-header img.hero-contain {
+    height: auto;
+    max-height: 520px;
+    object-fit: contain;
+    object-position: center top;
+    background: #f4f4f4;
+}
+
 .article-content {
     line-height: 1.8;
     font-size: 1.1rem;
@@ -766,6 +774,68 @@ a {
     margin: 0 auto;
     background: #f8f8f8;
     padding: 20px;
+}
+
+.article-content figure.article-image.lifestyle {
+    margin: 36px auto;
+    max-width: 720px;
+}
+
+.article-content figure.article-image.lifestyle img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    background: #f4f4f4;
+    object-fit: contain;
+}
+
+.article-content .article-image-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+    margin: 36px 0;
+    align-items: start;
+}
+
+.article-content .article-image-row figure.article-image.lifestyle {
+    margin: 0;
+    max-width: none;
+}
+
+.article-content .article-image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+    margin: 36px 0;
+}
+
+.article-content .article-image-gallery figure.article-image.lifestyle {
+    margin: 0;
+    max-width: none;
+}
+
+.article-content .article-image-gallery figure.article-image.lifestyle:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    max-width: 420px;
+    justify-self: center;
+}
+
+@media (max-width: 768px) {
+    .article-header img.hero-contain {
+        max-height: 440px;
+    }
+
+    .article-content .article-image-row,
+    .article-content .article-image-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .article-content .article-image-gallery figure.article-image.lifestyle:last-child:nth-child(odd) {
+        grid-column: auto;
+        max-width: none;
+    }
 }
 
 .article-content a,

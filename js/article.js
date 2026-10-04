@@ -18,6 +18,8 @@
 
     updateSEOTags(article);
 
+    const heroImgClass = article.heroImageFit === 'contain' ? 'hero-contain' : '';
+
     document.getElementById('articleHeader').innerHTML = `
         <span class="category">${article.category}</span>
         <h1>${article.title}</h1>
@@ -26,7 +28,7 @@
             <span style="margin: 0 10px;">•</span>
             <i class="far fa-clock"></i> 5 min read
         </p>
-        <img src="${article.image}" alt="${article.title}">
+        <img src="${article.image}" alt="${article.title}" class="${heroImgClass}">
     `;
 
     document.getElementById('articleContent').innerHTML = article.content;
