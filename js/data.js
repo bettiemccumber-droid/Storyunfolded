@@ -708,6 +708,63 @@ const articles = [
             <h2>Would I Recommend Izipizi?</h2>
             <p>If your eyes are tired, your frames are ugly, or you're upgrading from \"random Amazon pair,\" yes. Start with <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">screen glasses</a> if you work on displays all day; add <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">sunglasses</a> or <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">reading glasses</a> when you know your use case. Browse colors and strengths at <a class="affiliate-link" href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=2cb4WqOrmhvrJLoqzLrr0OWvLHDpICHjZlc_bcJMeT_bKqIYSBfhRVN8ODouB77aqbwRO7aCCLZIh5Bv9OzeIStTS4iUSi9H5xIqcVwg_c_c&new=https%3A%2F%2Fwww.izipizi.com%2Fww_de%2F" target="_blank" rel="noopener noreferrer">Izipizi</a> — your future 4 p.m. self might thank you without sending a dramatic Slack message about burnout.</p>
         `
+    },
+    {
+        id: 18,
+        title: "Notino.ua: Perfumes and Cosmetics Online When the Mall Runs Out of Patience",
+        category: "Beauty",
+        date: "2026-09-14",
+        image: "https://cdn.notinoimg.com/c=85/images/gallery/ba/9/UA_parfemy_web.jpg",
+        excerpt: "I used to test perfume at the mall, then hunt for a cheaper price online like it was a second job. A friend in Lviv pointed me at Notino — one cart for fragrances, skincare, and makeup, without the Saturday crowd.",
+        content: `
+            <p>There's a specific kind of exhaustion that comes from beauty shopping in person: fluorescent lights, three testers that smell identical, and a salesperson who insists this \"exclusive\" bottle is somehow different from the one you already own. I lived that loop for years — sniff at the counter, go home, compare prices on random sites, wonder if the discount shop is selling fakes. Then a colleague in Lviv said, \"Just use <a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">Notino</a>.\" She meant <a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">notino.ua</a>, the Ukrainian storefront of a European beauty retailer that's built its entire reputation on one idea — huge selection, honest stock, delivery that doesn't feel like a gamble.</p>
+            <p><a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">Notino.ua</a> lists perfumes, skincare, haircare, and makeup from brands you'd recognize in any airport duty-free — Armani, Versace, Calvin Klein, YSL — plus pharmacy staples like Bioderma that aren't glamorous but absolutely run out at the worst time. Notino claims more than 82,000 products from 1,500+ brands. I didn't count. I just noticed I stopped opening six tabs to compare one bottle of eau de parfum.</p>
+
+            <figure class="article-image banner">
+                <img src="https://cdn.notinoimg.com/c=85/images/gallery/ba/9/UA_parfemy_web.jpg" alt="Notino.ua perfume and fragrance selection">
+                <figcaption><a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">Perfumes</a> are the headline category — women's, men's, and unisex filters save you from scrolling blind.</figcaption>
+            </figure>
+
+            <h2>Why I Stopped \"Mall First, Internet Second\"</h2>
+            <p>Notino's pitch is synchronized pricing — online, app, and physical stores aligned so you're not punished for buying from your couch. Whether that holds for every SKU, I can't audit. What I can say is my last two fragrance orders arrived sealed, correct batch codes visible, and matched the listings on <a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">Notino Ukraine</a>. For someone who's been burned by gray-market perfume before, that's the whole ballgame.</p>
+            <p>Delivery speed matters when you're replacing a daily moisturizer, not just splurging on <a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">niche perfume</a>. Notino advertises next-day shipping on many in-stock items — warehouse scale in Europe backing that up. My orders weren't instant, but they beat waiting for a friend to bring something back from abroad.</p>
+
+            <h2>Perfume Without the Guessing Game</h2>
+            <p>If you've ever stood in a department store trying to decide between eau de toilette and eau de parfum while your coffee gets cold, you'll appreciate how <a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">Notino perfumes</a> lay out concentration, size, and gift sets. Weekly promos rotate — worth checking if your signature scent is on a brand you already trust. They also push discovery boxes if you want samples before committing to a full bottle; less waste, less regret.</p>
+            <p>Gift sets are underrated: same juice, nicer packaging, sometimes a travel size tucked in. I bought one as a birthday present last spring — arrived in Notino's standard box, no awkward repackaging on my end.</p>
+
+            <div class="article-image-row">
+                <figure class="article-image product">
+                    <img src="https://cdn.notinoimg.com/list_2k/gucci/3616307112345_01-o__251215.jpg" alt="Gucci perfume on Notino.ua">
+                    <figcaption>Designer <a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">fragrances</a> — Gucci and similar houses sit beside niche options.</figcaption>
+                </figure>
+                <figure class="article-image product">
+                    <img src="https://cdn.notinoimg.com/list_2k/estee-lauder/887167495074_01-o__251219.jpg" alt="Estée Lauder product on Notino.ua">
+                    <figcaption><a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">Makeup and skincare</a> from Estée Lauder and other premium lines share the same cart as your perfume.</figcaption>
+                </figure>
+            </div>
+
+            <h2>Skincare and the Boring Stuff That Saves Your Face</h2>
+            <p>Perfume gets the glamour shots; <a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">skincare on Notino</a> is what keeps me coming back. Bioderma's Sensibio line shows up in bestseller lists for a reason — gentle cleansing when your skin is angry at weather, stress, or your own experiments. I reorder the micellar gel like clockwork; having it on the same site as my fragrance means one delivery fee, one tracking number.</p>
+
+            <figure class="article-image product">
+                <img src="https://cdn.notinoimg.com/list_2k/bioderma/3401398335755_01-o__241122.jpg" alt="Bioderma Sensibio cleansing gel on Notino.ua">
+                <figcaption>Bioderma bestsellers — the unglamorous <a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">cosmetics</a> that actually stay in stock.</figcaption>
+            </figure>
+
+            <h2>Filters, App, and Support That Speaks Your Language</h2>
+            <p>Notino's site filters by gender, brand, price, and product type without feeling like enterprise software from 2009. The mobile app mirrors the catalog — handy when you're restocking shampoo and remember a perfume sample you liked last month. They also promote virtual try-on for makeup; I used it once for lipstick and felt silly and impressed in equal measure.</p>
+            <p>Customer support lists Ukrainian phone lines and email — real humans for order questions, not just FAQ loops. I haven't needed them often, but knowing <a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">Notino.ua</a> operates at European retail scale with local contact details matters when you're spending real money on beauty products.</p>
+
+            <figure class="article-image banner">
+                <img src="https://cdn.notinoimg.com/images/gallery/ba/2/42_services_promo-app.png" alt="Notino mobile app">
+                <figcaption>The <a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">Notino app</a> — same prices as the site, easier for quick repurchases.</figcaption>
+            </figure>
+
+            <h2>Who Should Shop Notino?</h2>
+            <p>If you're in Ukraine (or ordering to addresses Notino serves) and you're tired of splitting purchases across random resellers, <a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">online perfume and cosmetics</a> from a single trusted retailer beats the mall marathon. Stock depth means you're less likely to substitute a product you didn't want. Promotions rotate — bookmark the site before a wedding season or holiday rush.</p>
+            <p>I'm not claiming every brand or every deal is unbeatable worldwide. I am saying Notino removed the sketchy middleman vibe from my beauty routine. Start with one repurchase you already know — cleanser, deodorant, a fragrance you've worn for years — and add from there on <a class="affiliate-link" href="https://admin.rewardoo.com/track/5a2dHj9uVd5caP_aK8KOPyd_ajHFUPrV4usMGS7C1naSGPb3cijRRO1WPwPSJrLC6SnPiGTuO7DdbbDqnakiAiwW4j0joE7qBoIatn1YMYO866H_bk_c?url=https%3A%2F%2Fwww.notino.ua%2F" target="_blank" rel="noopener noreferrer">Notino</a>. Your Saturday afternoon might thank you.</p>
+        `
     }
 ];
 
@@ -780,7 +837,7 @@ const categories = [
     { name: "Technology", count: 5, slug: "technology" },
     { name: "Fashion", count: 3, slug: "fashion" },
     { name: "Home & Living", count: 3, slug: "home" },
-    { name: "Beauty", count: 2, slug: "beauty" },
+    { name: "Beauty", count: 3, slug: "beauty" },
     { name: "Fitness", count: 2, slug: "fitness" },
     { name: "Travel", count: 3, slug: "travel" }
 ];
