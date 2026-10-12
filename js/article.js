@@ -274,6 +274,36 @@ function applyArticlePageUi(article, ui) {
             heading.textContent = ui.categoriesHeading;
         }
     });
+
+    if (article.lang === 'uk' || article.locale === 'uk-UA') {
+        applyUkArticleShellLabels();
+    }
+}
+
+/** @type {Record<string, string>} */
+const UK_NAV_LABELS = {
+    'index.html': 'Головна',
+    'blog.html': 'Блог',
+    'products.html': 'Товари',
+    'about.html': 'Про нас',
+    'contact.html': 'Контакти'
+};
+
+/**
+ * Localize header nav on legacy English article shells when the article is Ukrainian.
+ */
+function applyUkArticleShellLabels() {
+    document.querySelectorAll('.nav-menu a[href]').forEach((link) => {
+        const href = link.getAttribute('href') || '';
+        const file = href.split('?')[0].split('#')[0];
+        if (UK_NAV_LABELS[file]) {
+            link.textContent = UK_NAV_LABELS[file];
+        }
+    });
+    const menuToggle = document.querySelector('.mobile-menu-toggle');
+    if (menuToggle) {
+        menuToggle.setAttribute('aria-label', 'Відкрити меню');
+    }
 }
 
 function shareOnFacebook() {

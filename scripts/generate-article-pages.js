@@ -50,10 +50,15 @@ if (!fs.existsSync(outDir)) {
 }
 
 const slugs = titles.map((title) => slugifyTitle(title));
-slugs.forEach((slug) => {
-    const outPath = path.join(outDir, `${slug}.html`);
-    fs.writeFileSync(outPath, template, 'utf8');
-});
+const NOTINO_UK_SLUG = 'notino-ua-perfumes-and-cosmetics-online-when-the-mall-runs-out-of-patience';
 
 console.log(`Wrote ${slugs.length} files under article/`);
-slugs.forEach((slug, i) => console.log(`  ${i + 1}. article/${slug}.html`));
+slugs.forEach((slug, i) => {
+    const outPath = path.join(outDir, `${slug}.html`);
+    if (slug === NOTINO_UK_SLUG && fs.existsSync(outPath)) {
+        console.log(`  skip (keep custom): article/${slug}.html`);
+        return;
+    }
+    fs.writeFileSync(outPath, template, 'utf8');
+    console.log(`  ${i + 1}. article/${slug}.html`);
+});
