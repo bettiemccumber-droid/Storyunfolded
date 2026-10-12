@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <article class="post-card">
                 <img src="${article.image}" alt="${article.title}">
                 <div class="card-content">
-                    <span class="category">${article.category}</span>
+                    <span class="category">${article.categoryLabel || article.category}</span>
                     <h3>${article.title}</h3>
                     <p class="meta"><i class="far fa-calendar"></i> ${formatDate(article.date)}</p>
                     <p>${article.excerpt}</p>

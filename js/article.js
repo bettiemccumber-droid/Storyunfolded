@@ -16,20 +16,24 @@
         window.history.replaceState(null, '', canonicalPath);
     }
 
+    const ui = getArticleUi(article);
     updateSEOTags(article);
 
     const heroImgClass = article.heroImageFit === 'contain' ? 'hero-contain' : '';
+    const categoryLabel = article.categoryLabel || article.category;
 
     document.getElementById('articleHeader').innerHTML = `
-        <span class="category">${article.category}</span>
+        <span class="category">${categoryLabel}</span>
         <h1>${article.title}</h1>
         <p class="meta">
-            <i class="far fa-calendar"></i> ${formatDate(article.date)}
+            <i class="far fa-calendar"></i> ${formatDate(article.date, article.locale)}
             <span style="margin: 0 10px;">•</span>
-            <i class="far fa-clock"></i> 5 min read
+            <i class="far fa-clock"></i> ${ui.minRead}
         </p>
         <img src="${article.image}" alt="${article.title}" class="${heroImgClass}">
     `;
+
+    applyArticlePageUi(article, ui);
 
     document.getElementById('articleContent').innerHTML = article.content;
 
@@ -41,10 +45,10 @@
         <article class="post-card">
             <img src="${a.image}" alt="${a.title}">
             <div class="card-content">
-                <span class="category">${a.category}</span>
+                <span class="category">${a.categoryLabel || a.category}</span>
                 <h3>${a.title}</h3>
-                <p class="meta"><i class="far fa-calendar"></i> ${formatDate(a.date)}</p>
-                <a href="/${getArticlePath(a)}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                <p class="meta"><i class="far fa-calendar"></i> ${formatDate(a.date, article.locale)}</p>
+                <a href="/${getArticlePath(a)}" class="read-more">${ui.readMore} <i class="fas fa-arrow-right"></i></a>
             </div>
         </article>
     `).join('');
@@ -55,19 +59,22 @@
             <img src="${a.image}" alt="${a.title}">
             <div>
                 <h4><a href="/${getArticlePath(a)}">${a.title}</a></h4>
-                <p class="meta"><i class="far fa-calendar"></i> ${formatDate(a.date)}</p>
+                <p class="meta"><i class="far fa-calendar"></i> ${formatDate(a.date, article.locale)}</p>
             </div>
         </div>
     `).join('');
 
-    document.getElementById('categoryList').innerHTML = categories.map(cat => `
+    document.getElementById('categoryList').innerHTML = categories.map(cat => {
+        const name = getCategoryDisplayName(cat, article.lang);
+        return `
         <li>
             <a href="blog.html?category=${cat.slug}">
-                ${cat.name}
+                ${name}
                 <span>(${cat.count})</span>
             </a>
         </li>
-    `).join('');
+    `;
+    }).join('');
 
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const navMenu = document.querySelector('.nav-menu');
@@ -98,18 +105,30 @@
  */
 function updateSEOTags(article) {
     const canonicalUrl = getArticleCanonicalUrl(article);
+    const ui = getArticleUi(article);
+    const categoryLabel = article.categoryLabel || article.category;
+
+    if (article.lang) {
+        document.documentElement.lang = article.lang;
+    }
 
     document.title = `${article.title} | Storyunfolded`;
 
     updateMetaTag('name', 'description', article.excerpt);
-    updateMetaTag('name', 'keywords', `${article.category}, ${article.title}, product review, lifestyle tips`);
+    updateMetaTag(
+        'name',
+        'keywords',
+        article.keywords || `${categoryLabel}, ${article.title}, ${ui.keywordsSuffix}`
+    );
+    updateMetaTag('name', 'language', ui.languageName);
 
     updateMetaTag('property', 'og:title', article.title);
     updateMetaTag('property', 'og:description', article.excerpt);
     updateMetaTag('property', 'og:image', article.image);
     updateMetaTag('property', 'og:url', canonicalUrl);
+    updateMetaTag('property', 'og:locale', ui.ogLocale);
     updateMetaTag('property', 'article:published_time', article.date);
-    updateMetaTag('property', 'article:section', article.category);
+    updateMetaTag('property', 'article:section', categoryLabel);
 
     updateMetaTag('property', 'twitter:title', article.title);
     updateMetaTag('property', 'twitter:description', article.excerpt);
@@ -172,10 +191,89 @@ function addArticleStructuredData(article, canonicalUrl) {
             "@type": "WebPage",
             "@id": canonicalUrl
         },
-        "articleSection": article.category,
-        "keywords": `${article.category}, product review, lifestyle`
+        "articleSection": article.categoryLabel || article.category,
+        "inLanguage": article.locale || "en-US",
+        "keywords":
+            article.keywords ||
+            `${article.categoryLabel || article.category}, ${getArticleUi(article).keywordsSuffix}`
     });
     document.head.appendChild(script);
+}
+
+/** @type {Record<string, string>} */
+const CATEGORY_LABELS_UK = {
+    technology: 'Технології',
+    fashion: 'Мода',
+    home: 'Дім і побут',
+    beauty: 'Краса',
+    fitness: 'Фітнес',
+    travel: 'Подорожі'
+};
+
+/**
+ * @param {{ slug: string, name: string }} category - Category record
+ * @param {string | undefined} lang - Article language code
+ * @returns {string} Display name
+ */
+function getCategoryDisplayName(category, lang) {
+    if (lang === 'uk' && CATEGORY_LABELS_UK[category.slug]) {
+        return CATEGORY_LABELS_UK[category.slug];
+    }
+    return category.name;
+}
+
+/**
+ * @param {object} article - Article record
+ * @returns {object} UI copy for article chrome (share labels, sidebar, etc.)
+ */
+function getArticleUi(article) {
+    if (article.lang === 'uk' || article.locale === 'uk-UA') {
+        return {
+            minRead: '5 хв читання',
+            readMore: 'Читати далі',
+            shareHeading: 'Поділитися статтею',
+            relatedHeading: 'Схожі статті',
+            recentHeading: 'Останні публікації',
+            categoriesHeading: 'Категорії',
+            languageName: 'Українська',
+            ogLocale: 'uk_UA',
+            keywordsSuffix: 'огляд, косметика, парфумерія, Notino.ua'
+        };
+    }
+    return {
+        minRead: '5 min read',
+        readMore: 'Read More',
+        shareHeading: 'Share this article',
+        relatedHeading: 'Related Articles',
+        recentHeading: 'Recent Posts',
+        categoriesHeading: 'Categories',
+        languageName: 'English',
+        ogLocale: 'en_US',
+        keywordsSuffix: 'product review, lifestyle tips'
+    };
+}
+
+/**
+ * Localize static headings in the article page shell for the active article.
+ * @param {object} article - Article record
+ * @param {object} ui - UI strings from getArticleUi
+ */
+function applyArticlePageUi(article, ui) {
+    const shareHeading = document.querySelector('.share-section h3');
+    if (shareHeading) {
+        shareHeading.textContent = ui.shareHeading;
+    }
+    const relatedHeading = document.querySelector('.related-articles h3');
+    if (relatedHeading) {
+        relatedHeading.textContent = ui.relatedHeading;
+    }
+    document.querySelectorAll('.article-sidebar .widget h3').forEach((heading, index) => {
+        if (index === 0) {
+            heading.textContent = ui.recentHeading;
+        } else if (index === 1) {
+            heading.textContent = ui.categoriesHeading;
+        }
+    });
 }
 
 function shareOnFacebook() {
@@ -205,7 +303,7 @@ function shareOnLinkedIn() {
  * @param {string} dateString - ISO date string
  * @returns {string} Formatted date
  */
-function formatDate(dateString) {
+function formatDate(dateString, locale) {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateString).toLocaleDateString('en-US', options);
+    return new Date(dateString).toLocaleDateString(locale || 'en-US', options);
 }
