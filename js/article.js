@@ -2,7 +2,27 @@
     const article = findArticleFromLocation();
 
     if (!article) {
-        document.getElementById('articleHeader').innerHTML = '<h1>Article not found</h1>';
+        const publishedSlug = new URLSearchParams(window.location.search).get('slug') || '';
+        if (!publishedSlug) {
+            document.getElementById('articleHeader').innerHTML = '<h1>Article not found</h1>';
+            return;
+        }
+        fetch(`/api/posts/${encodeURIComponent(publishedSlug)}`, { cache: 'no-store' })
+            .then((response) => (response.ok ? response.json() : null))
+            .then(async (body) => {
+                if (!body || typeof body.bodyHtml !== 'string') {
+                    document.getElementById('articleHeader').innerHTML = '<h1>Article not found</h1>';
+                    return;
+                }
+                const listResponse = await fetch('/api/posts', { cache: 'no-store' });
+                const posts = listResponse.ok ? await listResponse.json() : [];
+                const meta = Array.isArray(posts) ? posts.find((item) => item.slug === publishedSlug) : null;
+                document.getElementById('articleHeader').innerHTML = `<h1>${meta?.title || 'Article'}</h1>`;
+                document.getElementById('articleContent').innerHTML = body.bodyHtml;
+            })
+            .catch(() => {
+                document.getElementById('articleHeader').innerHTML = '<h1>Article not found</h1>';
+            });
         return;
     }
 
