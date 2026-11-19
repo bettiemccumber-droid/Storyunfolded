@@ -746,6 +746,21 @@ a {
     margin-bottom: 10px;
 }
 
+/* zjads / API posts use bare <figure><img>; static articles use .article-image */
+.article-content figure {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.article-content figure img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-inline: auto;
+}
+
 .article-content figure.article-image {
     margin: 30px 0;
 }

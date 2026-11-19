@@ -79,9 +79,13 @@ export default async function handler(req, res) {
 function requestOrigin(req) {
   const configured = (process.env.SITE_ORIGIN || "").trim().replace(/\/$/, "");
   if (configured) return configured;
+  // Prefer apex www so returned publish URLs match the production domain.
+  if (process.env.VERCEL_ENV === "production") {
+    return "https://www.storyunfolded.top";
+  }
   const host = String(req.headers["x-forwarded-host"] || req.headers.host || "").split(",")[0].trim();
   const proto = String(req.headers["x-forwarded-proto"] || "https").split(",")[0].trim() || "https";
-  return host ? `${proto}://${host}` : "";
+  return host ? `${proto}://${host}` : "https://www.storyunfolded.top";
 }
 
 /**

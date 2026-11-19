@@ -880,11 +880,122 @@ function getArticleSlug(article) {
 }
 
 /**
- * @param {{ slug?: string, title: string }} article - Article record
- * @returns {string} Relative path from site root, e.g. article/my-post.html
+ * @param {{ slug?: string, title: string, content?: string }} article - Article record
+ * @returns {string} Relative path from site root
  */
 function getArticlePath(article) {
-    return `article/${getArticleSlug(article)}.html`;
+    const slug = getArticleSlug(article);
+    // API-published posts have no static HTML file; body lives in Blob.
+    if (!article.content) {
+        return `article.html?slug=${encodeURIComponent(slug)}`;
+    }
+    return `article/${slug}.html`;
+}
+
+/**
+ * List fields from GET /api/posts. Body HTML is loaded separately on the article page.
+ * @param {object} post - Post from the publish API
+ * @returns {object}
+ */
+function publishedListFields(post) {
+    return {
+        id: post.id,
+        slug: post.slug,
+        title: post.title,
+        category: post.category || 'Product Review',
+        date: post.date,
+        image: post.image || '',
+        excerpt: post.excerpt || '',
+        keywords: Array.isArray(post.keywords) ? post.keywords.join(', ') : (post.keywords || ''),
+        relatedProducts: Array.isArray(post.relatedProducts) ? post.relatedProducts : []
+    };
+}
+
+/**
+ * Merge API posts into the in-memory articles list.
+ * @param {Array<object>} remotePosts - Posts from GET /api/posts
+ */
+function mergePublishedPosts(remotePosts) {
+    if (!Array.isArray(remotePosts)) {
+        return;
+    }
+
+    /** @type {Map<string, object>} */
+    const incoming = new Map();
+    remotePosts.forEach((post) => {
+        if (!post || typeof post.slug !== 'string' || !post.slug) {
+            return;
+        }
+        incoming.set(post.slug, publishedListFields(post));
+    });
+
+    for (let index = 0; index < articles.length; index += 1) {
+        const remote = incoming.get(getArticleSlug(articles[index]));
+        if (!remote) {
+            continue;
+        }
+        const staticContent = articles[index].content;
+        articles[index] = { ...articles[index], ...remote };
+        if (staticContent) {
+            articles[index].content = staticContent;
+        }
+        incoming.delete(remote.slug);
+    }
+
+    incoming.forEach((post) => {
+        articles.push(post);
+    });
+}
+
+/** @type {Promise<void>|null} */
+let publishedPostsPromise = null;
+
+/**
+ * Fetch GET /api/posts and merge. A failed request leaves the static list in place.
+ * @returns {Promise<void>}
+ */
+function loadPublishedPosts() {
+    if (!publishedPostsPromise) {
+        publishedPostsPromise = fetchAndMergePublishedPosts();
+    }
+    return publishedPostsPromise;
+}
+
+/**
+ * @returns {Promise<void>}
+ */
+async function fetchAndMergePublishedPosts() {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 4000);
+    try {
+        const response = await fetch('/api/posts', { cache: 'no-store', signal: controller.signal });
+        if (!response.ok) {
+            return;
+        }
+        const data = await response.json();
+        mergePublishedPosts(Array.isArray(data) ? data : data.posts);
+    } catch (error) {
+        console.error('Published posts unavailable, showing static articles.', error);
+    } finally {
+        clearTimeout(timer);
+    }
+}
+
+/**
+ * Load body HTML for one API-published article.
+ * @param {string} slug - Article slug
+ * @returns {Promise<string|null>}
+ */
+async function loadPublishedBody(slug) {
+    const response = await fetch(`/api/posts/${encodeURIComponent(slug)}`, { cache: 'no-store' });
+    if (!response.ok) {
+        return null;
+    }
+    const data = await response.json();
+    if (typeof data === 'string') {
+        return data;
+    }
+    return typeof data?.bodyHtml === 'string' ? data.bodyHtml : null;
 }
 
 /**

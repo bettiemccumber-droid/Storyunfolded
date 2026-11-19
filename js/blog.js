@@ -1,4 +1,6 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
+    await loadPublishedPosts();
+
     let currentPage = 1;
     const articlesPerPage = 6;
     let filteredArticles = sortArticlesByDateDesc(articles);
@@ -6,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let searchQuery = '';
     let currentSort = 'date-desc';
 
-    // Initialize
+    // Initialize after API posts are merged
     renderCategories();
     renderRecentPosts();
     if (currentCategory) {

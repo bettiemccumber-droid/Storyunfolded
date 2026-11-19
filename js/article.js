@@ -1,28 +1,63 @@
-﻿document.addEventListener('DOMContentLoaded', function() {
-    const article = findArticleFromLocation();
+document.addEventListener('DOMContentLoaded', async function() {
+    await loadPublishedPosts();
 
-    if (!article) {
-        const publishedSlug = new URLSearchParams(window.location.search).get('slug') || '';
+    const article = findArticleFromLocation();
+    const slugFromQuery = new URLSearchParams(window.location.search).get('slug') || '';
+    const needsApiBody = Boolean(article && !article.content) || (!article && Boolean(slugFromQuery));
+
+    if (needsApiBody) {
+        const publishedSlug = (article && getArticleSlug(article)) || slugFromQuery;
         if (!publishedSlug) {
             document.getElementById('articleHeader').innerHTML = '<h1>Article not found</h1>';
             return;
         }
-        fetch(`/api/posts/${encodeURIComponent(publishedSlug)}`, { cache: 'no-store' })
-            .then((response) => (response.ok ? response.json() : null))
-            .then(async (body) => {
-                if (!body || typeof body.bodyHtml !== 'string') {
-                    document.getElementById('articleHeader').innerHTML = '<h1>Article not found</h1>';
-                    return;
-                }
-                const listResponse = await fetch('/api/posts', { cache: 'no-store' });
-                const posts = listResponse.ok ? await listResponse.json() : [];
-                const meta = Array.isArray(posts) ? posts.find((item) => item.slug === publishedSlug) : null;
-                document.getElementById('articleHeader').innerHTML = `<h1>${meta?.title || 'Article'}</h1>`;
-                document.getElementById('articleContent').innerHTML = body.bodyHtml;
-            })
-            .catch(() => {
+
+        try {
+            const bodyHtml = await loadPublishedBody(publishedSlug);
+            if (!bodyHtml) {
                 document.getElementById('articleHeader').innerHTML = '<h1>Article not found</h1>';
-            });
+                return;
+            }
+
+            const meta = article || articles.find((item) => getArticleSlug(item) === publishedSlug) || {
+                slug: publishedSlug,
+                title: 'Article',
+                category: 'Product Review',
+                date: new Date().toISOString().slice(0, 10),
+                image: '',
+                excerpt: ''
+            };
+            meta.content = bodyHtml;
+
+            const ui = getArticleUi(meta);
+            updateSEOTags(meta);
+            applyArticlePageUi(meta, ui);
+
+            const categoryLabel = meta.categoryLabel || meta.category;
+            const heroImage = meta.image
+                ? `<img src="${meta.image}" alt="${meta.title}">`
+                : '';
+            document.getElementById('articleHeader').innerHTML = `
+                <span class="category">${categoryLabel}</span>
+                <h1>${meta.title}</h1>
+                <p class="meta">
+                    <i class="far fa-calendar"></i> ${formatDate(meta.date, meta.locale)}
+                    <span style="margin: 0 10px;">•</span>
+                    <i class="far fa-clock"></i> ${ui.minRead}
+                </p>
+                ${heroImage}
+            `;
+            document.getElementById('articleContent').innerHTML = bodyHtml;
+            renderArticleChrome(meta, ui);
+        } catch (error) {
+            console.error(error);
+            document.getElementById('articleHeader').innerHTML = '<h1>Article not found</h1>';
+        }
+        return;
+    }
+
+    if (!article) {
+        document.getElementById('articleHeader').innerHTML = '<h1>Article not found</h1>';
         return;
     }
 
@@ -56,7 +91,15 @@
     applyArticlePageUi(article, ui);
 
     document.getElementById('articleContent').innerHTML = article.content;
+    renderArticleChrome(article, ui);
+});
 
+/**
+ * Related posts, recent posts, categories, mobile menu, back-to-top.
+ * @param {object} article - Active article
+ * @param {object} ui - UI strings
+ */
+function renderArticleChrome(article, ui) {
     const relatedArticles = sortArticlesByDateDesc(
         articles.filter(a => a.category === article.category && a.id !== article.id)
     ).slice(0, 3);
@@ -117,7 +160,7 @@
     backToTop.addEventListener('click', function() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
-});
+}
 
 /**
  * Update document meta tags and canonical URL for the active article.
